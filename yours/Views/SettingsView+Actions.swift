@@ -94,5 +94,16 @@ extension SettingsView {
         for person in persons {
             modelContext.delete(person)
         }
+        deleteAll(fetchAll() as [AllergyCategory])
+        deleteAll(fetchAll() as [GiftCategory])
+        deleteAll(fetchAll() as [DateCategory])
+        deleteAll(fetchAll() as [LikeDislikeCategory])
+        deleteAll(fetchAll() as [ClothingSizeCategory])
+        deleteAll(fetchAll() as [FoodOrderCategory])
+        deleteAll(fetchAll() as [TheirPeopleCategory])
+    }
+
+    private func fetchAll<T: PersistentModel>() -> [T] {
+        (try? modelContext.fetch(FetchDescriptor<T>())) ?? []
     }
 }
