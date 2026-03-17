@@ -1,0 +1,226 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Add an important date" : {
+      "comment" : "Widget: empty state prompt",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add an important date"
+          }
+        }
+      }
+    },
+    "Birthday" : {
+      "comment" : "Widget placeholder: example event",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Birthday"
+          }
+        }
+      }
+    },
+    "Date Countdown" : {
+      "comment" : "Widget gallery: date countdown name",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date Countdown"
+          }
+        }
+      }
+    },
+"in 12 days" : {
+      "comment" : "Widget placeholder: countdown",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "in 12 days"
+          }
+        }
+      }
+    },
+    "month together" : {
+      "comment" : "Widget medium: singular month",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "month together"
+          }
+        }
+      }
+    },
+    "months together" : {
+      "comment" : "Widget medium: plural months",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "months together"
+          }
+        }
+      }
+    },
+"Relationship Duration" : {
+      "comment" : "Widget gallery: duration name",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Relationship Duration"
+          }
+        }
+      }
+    },
+    "See how long you've been together." : {
+      "comment" : "Widget gallery: duration description",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "See how long you've been together."
+          }
+        }
+      }
+    },
+    "See upcoming important dates at a glance." : {
+      "comment" : "Widget gallery: date countdown description",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "See upcoming important dates at a glance."
+          }
+        }
+      }
+    },
+"Set up Yours to see your relationship here." : {
+      "comment" : "Widget: onboarding required",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set up Yours to see your relationship here."
+          }
+        }
+      }
+    },
+    "Since %@" : {
+      "comment" : "Widget: relationship start date",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Since %@"
+          }
+        }
+      }
+    },
+    "Today" : {
+      "comment" : "Widget: event is today",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Today"
+          }
+        }
+      }
+    },
+    "together" : {
+      "comment" : "Widget medium: together label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "together"
+          }
+        }
+      }
+    },
+    "Together %lldm" : {
+      "comment" : "Widget Lock Screen: compact duration months only",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Together %lldm"
+          }
+        }
+      }
+    },
+    "Together %lldy" : {
+      "comment" : "Widget Lock Screen: compact duration years only",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Together %lldy"
+          }
+        }
+      }
+    },
+    "Together %lldy %lldm" : {
+      "comment" : "Widget Lock Screen: compact duration with years and months",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Together %1$lldy %2$lldm"
+          }
+        }
+      }
+    },
+    "Together for 2 years and 3 months." : {
+      "comment" : "Widget placeholder: relationship duration",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Together for 2 years and 3 months."
+          }
+        }
+      }
+    },
+    "Upcoming" : {
+      "comment" : "Widget: upcoming dates header",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upcoming"
+          }
+        }
+      }
+    },
+    "year together" : {
+      "comment" : "Widget medium: singular year",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "year together"
+          }
+        }
+      }
+    },
+    "years together" : {
+      "comment" : "Widget medium: plural years",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "years together"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

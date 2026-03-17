@@ -1,0 +1,3965 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "." : {
+      "comment" : "Profile header: punctuation after person's name in 'Yours, about [name].'",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "."
+          }
+        }
+      }
+    },
+    "%@ is…" : {
+      "comment" : "Onboarding gender: prompt with name followed by gender options - translators can reorder",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ is…"
+          }
+        }
+      }
+    },
+    "%@, profile photo" : {
+      "comment" : "Accessibility: avatar image label with person's name",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, profile photo"
+          }
+        }
+      }
+    },
+    "%@'s Birthday" : {
+      "comment" : "Birthday picker: sheet title with person's first name\nBirthday service: title for auto-created birthday important date",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@’s Birthday"
+          }
+        }
+      }
+    },
+    "%@'s profile photo" : {
+      "comment" : "Accessibility: avatar button label when photo is set",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@'s profile photo"
+          }
+        }
+      }
+    },
+    "%lld allergies" : {
+      "comment" : "About: allergies count label",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld allergy"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld allergies"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld dates" : {
+      "comment" : "Category badge: date count\nHome: important dates badge count",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld date"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld dates"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld days" : {
+      "comment" : "Duration: day count for relationship length",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld day"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld days"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld days ago" : {
+      "comment" : "Days since: days after event",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld day ago"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld days ago"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld days before" : {
+      "comment" : "Reminder option: notify N days before the date",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld day before"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld days before"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld dislikes" : {
+      "comment" : "About: dislikes count label",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld dislike"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld dislikes"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld ideas" : {
+      "comment" : "Category badge: gift idea count\nHome: gift ideas badge count",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld idea"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld ideas"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld items" : {
+      "comment" : "Category badge: allergy item count\nCategory badge: food order item count\nCategory badge: like/dislike item count",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld item"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld items"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld likes" : {
+      "comment" : "About: likes count label",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld like"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld likes"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld months" : {
+      "comment" : "Duration: month count for relationship length",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld month"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld months"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld orders" : {
+      "comment" : "About: food orders count label",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld order"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld orders"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld people" : {
+      "comment" : "About: people count label\nCategory badge: people count",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld people"
+          }
+        }
+      }
+    },
+    "%lld sizes" : {
+      "comment" : "About: sizes count label\nCategory badge: clothing size count",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld size"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld sizes"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld things to ask about" : {
+      "comment" : "Home: ask-about preview count",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld thing to ask about"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld things to ask about"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld years" : {
+      "comment" : "Duration: year count for relationship length",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld year"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld years"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld years old" : {
+      "comment" : "Birthday picker: age display",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld year old"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld years old"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "0.00" : {
+      "comment" : "Gift form: placeholder for price input",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0.00"
+          }
+        }
+      }
+    },
+    "1 day ago" : {
+      "comment" : "Days since: event was yesterday",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 day ago"
+          }
+        }
+      }
+    },
+    "1 day before" : {
+      "comment" : "Reminder option: notify 1 day before",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 day before"
+          }
+        }
+      }
+    },
+    "1 month before" : {
+      "comment" : "Reminder option: notify 1 month before",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 month before"
+          }
+        }
+      }
+    },
+    "1 week before" : {
+      "comment" : "Reminder option: notify 1 week before",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 week before"
+          }
+        }
+      }
+    },
+    "2 days before" : {
+      "comment" : "Reminder option: notify 2 days before",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 days before"
+          }
+        }
+      }
+    },
+    "2 weeks before" : {
+      "comment" : "Reminder option: notify 2 weeks before",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 weeks before"
+          }
+        }
+      }
+    },
+    "3 days before" : {
+      "comment" : "Reminder option: notify 3 days before",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 days before"
+          }
+        }
+      }
+    },
+    "A man" : {
+      "comment" : "Onboarding gender: male option",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A man"
+          }
+        }
+      }
+    },
+    "A place for everything\nthat makes them, them." : {
+      "comment" : "Onboarding intro: tagline on welcome screen",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A place for everything\nthat makes them, them."
+          }
+        }
+      }
+    },
+    "A woman" : {
+      "comment" : "Onboarding gender: female option",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A woman"
+          }
+        }
+      }
+    },
+    "ABOUT" : {
+      "comment" : "Settings: about section header",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ABOUT"
+          }
+        }
+      }
+    },
+    "About %@" : {
+      "comment" : "About view: header with person's name - translators can reorder",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About %@"
+          }
+        }
+      }
+    },
+    "Active" : {
+      "comment" : "Settings: iCloud sync status badge when syncing",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Active"
+          }
+        }
+      }
+    },
+    "Add" : {
+      "comment" : "Ask about: button to add a new question item",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add"
+          }
+        }
+      }
+    },
+    "Add %@" : {
+      "comment" : "Accessibility: add button label for section card",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add %@"
+          }
+        }
+      }
+    },
+    "Add a %@" : {
+      "comment" : "Like/dislike form: sheet title when adding, e.g. 'Add a like' or 'Add a dislike'",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add a %@"
+          }
+        }
+      }
+    },
+    "Add a date" : {
+      "comment" : "Date form: sheet title when adding a new date\nImportant dates: empty state button",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add a date"
+          }
+        }
+      }
+    },
+    "Add a dislike" : {
+      "comment" : "Dislikes: empty state button to add a dislike",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add a dislike"
+          }
+        }
+      }
+    },
+    "Add a Gift Idea" : {
+      "comment" : "Quick action: add a gift idea",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add a Gift Idea"
+          }
+        }
+      }
+    },
+    "Add a like" : {
+      "comment" : "Likes: empty state button to add a like",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add a like"
+          }
+        }
+      }
+    },
+    "Add a Note" : {
+      "comment" : "Quick action: add a note",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add a Note"
+          }
+        }
+      }
+    },
+    "Add a person" : {
+      "comment" : "People form: sheet title when adding\nTheir people: empty state button",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add a person"
+          }
+        }
+      }
+    },
+    "Add a question" : {
+      "comment" : "Ask about: empty state button",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add a question"
+          }
+        }
+      }
+    },
+    "Add a size" : {
+      "comment" : "Size form: sheet title when adding",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add a size"
+          }
+        }
+      }
+    },
+    "Add allergy" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add allergy"
+          }
+        }
+      }
+    },
+    "Add an allergy" : {
+      "comment" : "Allergies: empty state button\nAllergy form: sheet title when adding",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add an allergy"
+          }
+        }
+      }
+    },
+    "Add an idea" : {
+      "comment" : "Gift form: sheet title when adding\nGift ideas: empty state button",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add an idea"
+          }
+        }
+      }
+    },
+    "Add an order" : {
+      "comment" : "Food order form: sheet title when adding\nFood orders: empty state button",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add an order"
+          }
+        }
+      }
+    },
+    "Add category" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add category"
+          }
+        }
+      }
+    },
+    "Add date" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add date"
+          }
+        }
+      }
+    },
+    "Add details" : {
+      "comment" : "About: button to start adding person details",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add details"
+          }
+        }
+      }
+    },
+    "Add dislike" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add dislike"
+          }
+        }
+      }
+    },
+    "Add gift idea" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add gift idea"
+          }
+        }
+      }
+    },
+    "Add like" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add like"
+          }
+        }
+      }
+    },
+    "Add note" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add note"
+          }
+        }
+      }
+    },
+    "Add order" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add order"
+          }
+        }
+      }
+    },
+    "Add person" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add person"
+          }
+        }
+      }
+    },
+    "Add photo for %@" : {
+      "comment" : "Accessibility: avatar button label when no photo",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add photo for %@"
+          }
+        }
+      }
+    },
+    "Add quirk" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add quirk"
+          }
+        }
+      }
+    },
+    "Add size" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add size"
+          }
+        }
+      }
+    },
+    "Add something to ask about" : {
+      "comment" : "Ask about: placeholder for new item input",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add something to ask about"
+          }
+        }
+      }
+    },
+    "Add their first size" : {
+      "comment" : "Sizes: empty state button",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add their first size"
+          }
+        }
+      }
+    },
+    "All" : {
+      "comment" : "Filter chip: label to show all items without filtering",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All"
+          }
+        }
+      }
+    },
+    "All about %@" : {
+      "comment" : "Home: card title for about section with person's name",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All about %@"
+          }
+        }
+      }
+    },
+    "Allergies" : {
+      "comment" : "About: allergies card title\nAllergies: screen title\nSearch: allergies section header",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allergies"
+          }
+        }
+      }
+    },
+    "Any details to remember" : {
+      "comment" : "Form field: placeholder for optional note",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Any details to remember"
+          }
+        }
+      }
+    },
+    "APPEARANCE" : {
+      "comment" : "Settings: appearance section header\nTheme picker: section header",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "APPEARANCE"
+          }
+        }
+      }
+    },
+    "Archive" : {
+      "comment" : "Context menu: archive a gift idea",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archive"
+          }
+        }
+      }
+    },
+    "Archived" : {
+      "comment" : "Gift status filter: archived stage",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archived"
+          }
+        }
+      }
+    },
+    "Ask %@ about" : {
+      "comment" : "Ask about: screen title with person's name - translators can reorder",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ask %@ about"
+          }
+        }
+      }
+    },
+    "Ask about" : {
+      "comment" : "Search: ask about section header"
+    },
+    "Ask her about" : {
+      "comment" : "Home: ask-about card title, female",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ask her about"
+          }
+        }
+      }
+    },
+    "Ask him about" : {
+      "comment" : "Home: ask-about card title, male",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ask him about"
+          }
+        }
+      }
+    },
+    "Ask them about" : {
+      "comment" : "Home: ask-about card title, non-binary",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ask them about"
+          }
+        }
+      }
+    },
+    "Back" : {
+      "comment" : "Accessibility: back button",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Back"
+          }
+        }
+      }
+    },
+    "Begin" : {
+      "comment" : "Onboarding intro: button to start the setup flow",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Begin"
+          }
+        }
+      }
+    },
+    "BIRTHDAY" : {
+      "comment" : "About: birthday section header",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BIRTHDAY"
+          }
+        }
+      }
+    },
+    "Birthdays, anniversaries, and the little dates that matter. Add them here so you never forget." : {
+      "comment" : "Important dates: empty state description",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Birthdays, anniversaries, and the little dates that matter. Add them here so you never forget."
+          }
+        }
+      }
+    },
+    "Built-in" : {
+      "comment" : "Manage categories: section header for predefined categories",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Built-in"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "comment" : "Generic cancel button",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        }
+      }
+    },
+    "Category" : {
+      "comment" : "Category picker: section title\nGift idea detail: label for the category field\nImportant date detail: label for the category field",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Category"
+          }
+        }
+      }
+    },
+    "Change due date" : {
+      "comment" : "Context menu: change an existing due date",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Change due date"
+          }
+        }
+      }
+    },
+    "Change photo" : {
+      "comment" : "Profile editor: camera button accessibility label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Change photo"
+          }
+        }
+      }
+    },
+    "Change Photo" : {
+      "comment" : "Profile header: option to change profile photo",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Change Photo"
+          }
+        }
+      }
+    },
+    "Checking" : {
+      "comment" : "Settings: iCloud sync status badge while checking",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Checking"
+          }
+        }
+      }
+    },
+    "Checking iCloud status..." : {
+      "comment" : "Settings: iCloud subtitle while checking status",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Checking iCloud status..."
+          }
+        }
+      }
+    },
+    "Choose a photo" : {
+      "comment" : "Onboarding photo: button to pick a photo from library",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose a photo"
+          }
+        }
+      }
+    },
+    "Clear all" : {
+      "comment" : "Ask about: button to delete all completed items\nDelete confirmation: button to clear all completed items",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear all"
+          }
+        }
+      }
+    },
+    "Clear all done items?" : {
+      "comment" : "Delete confirmation: title for clearing all completed items",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear all done items?"
+          }
+        }
+      }
+    },
+    "Clear search" : {
+      "comment" : "Accessibility: clear search field",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear search"
+          }
+        }
+      }
+    },
+    "Close search" : {
+      "comment" : "Accessibility: close global search"
+    },
+    "Color" : {
+      "comment" : "Category form: label for color picker",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Color"
+          }
+        }
+      }
+    },
+    "Coming up in %lld days." : {
+      "comment" : "Notification: days until event",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Coming up in %lld day."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Coming up in %lld days."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Copied to clipboard" : {
+      "comment" : "Food orders: toast after copying an order to clipboard",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copied to clipboard"
+          }
+        }
+      }
+    },
+    "Copy" : {
+      "comment" : "Swipe action: copy to clipboard",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copy"
+          }
+        }
+      }
+    },
+    "Copy order" : {
+      "comment" : "Context menu: copy a food order to clipboard",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copy order"
+          }
+        }
+      }
+    },
+    "Could not check iCloud status" : {
+      "comment" : "Settings: iCloud subtitle when status unknown",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Could not check iCloud status"
+          }
+        }
+      }
+    },
+    "Could not read the file." : {
+      "comment" : "Settings: fallback error message for import failure",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Could not read the file."
+          }
+        }
+      }
+    },
+    "Currency" : {
+      "comment" : "Currency picker: screen title\nSettings: currency row title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Currency"
+          }
+        }
+      }
+    },
+    "Custom" : {
+      "comment" : "Date filter: custom category filter chip\nManage categories: section header for user-created categories",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Custom"
+          }
+        }
+      }
+    },
+    "Dark" : {
+      "comment" : "Settings: dark theme option\nTheme option: always dark mode",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dark"
+          }
+        }
+      }
+    },
+    "DATA" : {
+      "comment" : "Settings: data section header",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DATA"
+          }
+        }
+      }
+    },
+    "Date" : {
+      "comment" : "Date form: date picker section label\nImportant date detail: label for the date field",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        }
+      }
+    },
+    "day away" : {
+      "comment" : "Date detail: singular countdown unit"
+    },
+    "days away" : {
+      "comment" : "Date detail: plural countdown unit",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "days away"
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "comment" : "Context menu: delete action\nContext menu: delete item action\nDestructive action button to delete an item\nSwipe action: delete item",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
+          }
+        }
+      }
+    },
+    "Delete all data and reset" : {
+      "comment" : "Settings: subtitle for start-over row",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete all data and reset"
+          }
+        }
+      }
+    },
+    "Delete allergy?" : {
+      "comment" : "Delete confirmation: title for deleting an allergy",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete allergy?"
+          }
+        }
+      }
+    },
+    "Delete category?" : {
+      "comment" : "Delete confirmation: title for deleting a custom category",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete category?"
+          }
+        }
+      }
+    },
+    "Delete date" : {
+      "comment" : "Important date detail: button to delete this date",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete date"
+          }
+        }
+      }
+    },
+    "Delete date?" : {
+      "comment" : "Delete confirmation: title for deleting a date",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete date?"
+          }
+        }
+      }
+    },
+    "Delete dislike?" : {
+      "comment" : "Delete confirmation: title for deleting a dislike",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete dislike?"
+          }
+        }
+      }
+    },
+    "Delete Everything" : {
+      "comment" : "Settings: destructive button that erases all user data",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete Everything"
+          }
+        }
+      }
+    },
+    "Delete idea" : {
+      "comment" : "Gift idea detail: button to delete this gift idea",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete idea"
+          }
+        }
+      }
+    },
+    "Delete idea?" : {
+      "comment" : "Delete confirmation: title for deleting a gift idea",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete idea?"
+          }
+        }
+      }
+    },
+    "Delete like?" : {
+      "comment" : "Delete confirmation: title for deleting a like",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete like?"
+          }
+        }
+      }
+    },
+    "Delete order?" : {
+      "comment" : "Delete confirmation: title for deleting a food order",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete order?"
+          }
+        }
+      }
+    },
+    "Delete person?" : {
+      "comment" : "Delete confirmation: title for deleting a person",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete person?"
+          }
+        }
+      }
+    },
+    "Delete size" : {
+      "comment" : "Size form: destructive button to delete a clothing size",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete size"
+          }
+        }
+      }
+    },
+    "Delete size?" : {
+      "comment" : "Delete confirmation: title for deleting a clothing size",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete size?"
+          }
+        }
+      }
+    },
+    "DEVELOPER" : {
+      "comment" : "Settings: developer section header",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DEVELOPER"
+          }
+        }
+      }
+    },
+    "Developer Mode" : {
+      "comment" : "Settings: developer mode toggle row title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Developer Mode"
+          }
+        }
+      }
+    },
+    "Developer Mode Enabled" : {
+      "comment" : "Settings: toast shown when developer mode is activated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Developer Mode Enabled"
+          }
+        }
+      }
+    },
+    "Did %@ mention a job interview, a doctor's visit, or something they were excited about? Add it here so you remember to follow up." : {
+      "comment" : "Ask about: empty state description with person's name",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Did %@ mention a job interview, a doctor's visit, or something they were excited about? Add it here so you remember to follow up."
+          }
+        }
+      }
+    },
+    "Dislikes" : {
+      "comment" : "About: dislikes card title\nSearch: dislikes section header",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dislikes"
+          }
+        }
+      }
+    },
+    "Done" : {
+      "comment" : "Ask about: section header for completed items",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
+          }
+        }
+      }
+    },
+    "Due date" : {
+      "comment" : "Ask about: label for the due date picker",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Due date"
+          }
+        }
+      }
+    },
+    "Due Date" : {
+      "comment" : "Ask about: date picker sheet title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Due Date"
+          }
+        }
+      }
+    },
+    "e.g. amazon.com/..." : {
+      "comment" : "Gift form: placeholder for product URL",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "e.g. amazon.com/..."
+          }
+        }
+      }
+    },
+    "e.g. Lives in Portland" : {
+      "comment" : "Their people form: placeholder for optional note about a person",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "e.g. Lives in Portland"
+          }
+        }
+      }
+    },
+    "e.g. Mom's birthday" : {
+      "comment" : "Date form: placeholder for date title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "e.g. Mom's birthday"
+          }
+        }
+      }
+    },
+    "e.g. Vintage Polaroid camera" : {
+      "comment" : "Gift form: placeholder for gift idea title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "e.g. Vintage Polaroid camera"
+          }
+        }
+      }
+    },
+    "Edit" : {
+      "comment" : "Context menu: edit action\nContext menu: edit item action\nGift detail: edit button accessibility label\nSwipe action: edit item",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit"
+          }
+        }
+      }
+    },
+    "Edit %@" : {
+      "comment" : "Like/dislike form: sheet title when editing, e.g. 'Edit like' or 'Edit dislike'",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit %@"
+          }
+        }
+      }
+    },
+    "Edit allergy" : {
+      "comment" : "Allergy form: sheet title when editing",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit allergy"
+          }
+        }
+      }
+    },
+    "Edit category" : {
+      "comment" : "Category form: sheet title when editing",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit category"
+          }
+        }
+      }
+    },
+    "Edit date" : {
+      "comment" : "Date form: sheet title when editing an existing date",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit date"
+          }
+        }
+      }
+    },
+    "Edit idea" : {
+      "comment" : "Gift form: sheet title when editing",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit idea"
+          }
+        }
+      }
+    },
+    "Edit order" : {
+      "comment" : "Food order form: sheet title when editing",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit order"
+          }
+        }
+      }
+    },
+    "Edit person" : {
+      "comment" : "People form: sheet title when editing",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit person"
+          }
+        }
+      }
+    },
+    "Edit profile" : {
+      "comment" : "Accessibility: edit profile button in settings",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit profile"
+          }
+        }
+      }
+    },
+    "Edit Profile" : {
+      "comment" : "Profile editor: sheet title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit Profile"
+          }
+        }
+      }
+    },
+    "Edit size" : {
+      "comment" : "Size form: sheet title when editing",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit size"
+          }
+        }
+      }
+    },
+    "Enabled" : {
+      "comment" : "Settings: developer mode subtitle when active",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enabled"
+          }
+        }
+      }
+    },
+    "Every month" : {
+      "comment" : "Recurrence: repeats monthly"
+    },
+    "Every week" : {
+      "comment" : "Recurrence: repeats weekly"
+    },
+    "Every year" : {
+      "comment" : "Recurrence: repeats yearly",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Every year"
+          }
+        }
+      }
+    },
+    "Export Data" : {
+      "comment" : "Settings: export data row title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Export Data"
+          }
+        }
+      }
+    },
+    "Export your data anytime. It's yours." : {
+      "comment" : "Onboarding privacy: third privacy bullet point",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Export your data anytime. It's yours."
+          }
+        }
+      }
+    },
+    "Food & drink orders" : {
+      "comment" : "Food orders: screen title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Food & drink orders"
+          }
+        }
+      }
+    },
+    "Food orders" : {
+      "comment" : "Search: food orders section header"
+    },
+    "GENDER" : {
+      "comment" : "Profile editor: gender section header",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GENDER"
+          }
+        }
+      }
+    },
+    "Get notified before this date" : {
+      "comment" : "Date form: subtitle explaining reminder toggle",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get notified before this date"
+          }
+        }
+      }
+    },
+    "Gift ideas" : {
+      "comment" : "Date detail: section header for linked gift ideas\nGift ideas: screen title\nSearch: gift ideas section header",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gift ideas"
+          }
+        }
+      }
+    },
+    "Give %@ a face" : {
+      "comment" : "Onboarding photo: heading with person's name - translators can reorder",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Give %@ a face"
+          }
+        }
+      }
+    },
+    "Given" : {
+      "comment" : "Gift status filter: given stage",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Given"
+          }
+        }
+      }
+    },
+    "Got it" : {
+      "comment" : "Onboarding privacy: acknowledgment button",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Got it"
+          }
+        }
+      }
+    },
+    "Haptics" : {
+      "comment" : "Settings: haptic feedback toggle row title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haptics"
+          }
+        }
+      }
+    },
+    "Her birthday is in %lld days" : {
+      "comment" : "Home: birthday countdown, female",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Her birthday is in %lld day"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Her birthday is in %lld days"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Her birthday is today!" : {
+      "comment" : "Home: birthday today, female",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her birthday is today!"
+          }
+        }
+      }
+    },
+    "Her birthday is tomorrow" : {
+      "comment" : "Home: birthday tomorrow, female",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her birthday is tomorrow"
+          }
+        }
+      }
+    },
+    "Her favorites, quirks, the little things that make her who she is. Keep it all in one place." : {
+      "comment" : "About: empty state description, female",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her favorites, quirks, the little things that make her who she is. Keep it all in one place."
+          }
+        }
+      }
+    },
+    "Here's how we keep it that way." : {
+      "comment" : "Onboarding privacy: subtitle about privacy approach",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Here's how we keep it that way."
+          }
+        }
+      }
+    },
+    "Hidden" : {
+      "comment" : "Category picker: section header for hidden categories",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hidden"
+          }
+        }
+      }
+    },
+    "Hide %@" : {
+      "comment" : "Accessibility: hide category",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hide %@"
+          }
+        }
+      }
+    },
+    "His birthday is in %lld days" : {
+      "comment" : "Home: birthday countdown, male",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "His birthday is in %lld day"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "His birthday is in %lld days"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "His birthday is today!" : {
+      "comment" : "Home: birthday today, male",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "His birthday is today!"
+          }
+        }
+      }
+    },
+    "His birthday is tomorrow" : {
+      "comment" : "Home: birthday tomorrow, male",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "His birthday is tomorrow"
+          }
+        }
+      }
+    },
+    "His favorites, quirks, the little things that make him who he is. Keep it all in one place." : {
+      "comment" : "About: empty state description, male",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "His favorites, quirks, the little things that make him who he is. Keep it all in one place."
+          }
+        }
+      }
+    },
+    "iCloud access is restricted" : {
+      "comment" : "Settings: iCloud subtitle when access restricted",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iCloud access is restricted"
+          }
+        }
+      }
+    },
+    "iCloud is temporarily unavailable" : {
+      "comment" : "Settings: iCloud subtitle when temporarily unavailable",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iCloud is temporarily unavailable"
+          }
+        }
+      }
+    },
+    "iCloud Sync" : {
+      "comment" : "Settings: iCloud sync row title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iCloud Sync"
+          }
+        }
+      }
+    },
+    "Idea" : {
+      "comment" : "Gift status filter: idea stage",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idea"
+          }
+        }
+      }
+    },
+    "Import Data" : {
+      "comment" : "Settings: import data row title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Import Data"
+          }
+        }
+      }
+    },
+    "Import Failed" : {
+      "comment" : "Settings: alert title when data import fails",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Import Failed"
+          }
+        }
+      }
+    },
+    "Import Successful" : {
+      "comment" : "Settings: alert title when data import succeeds",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Import Successful"
+          }
+        }
+      }
+    },
+    "Important dates" : {
+      "comment" : "Important dates: screen title\nSearch: important dates section header",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Important dates"
+          }
+        }
+      }
+    },
+    "in %lld days" : {
+      "comment" : "Countdown: days until event",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "in %lld day"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "in %lld days"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Keep onboarding data, clear the rest" : {
+      "comment" : "Settings: subtitle for reset post-onboarding row",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keep onboarding data, clear the rest"
+          }
+        }
+      }
+    },
+    "Keep track of their sizes for easy shopping" : {
+      "comment" : "Sizes: empty state description",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keep track of their sizes for easy shopping"
+          }
+        }
+      }
+    },
+    "Light" : {
+      "comment" : "Settings: light theme option\nTheme option: always light mode",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Light"
+          }
+        }
+      }
+    },
+    "Likes" : {
+      "comment" : "About: likes card title\nSearch: likes section header",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Likes"
+          }
+        }
+      }
+    },
+    "Link" : {
+      "comment" : "Gift detail: link section label for URL",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Link"
+          }
+        }
+      }
+    },
+    "Link (optional)" : {
+      "comment" : "Gift form: optional URL link field label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Link (optional)"
+          }
+        }
+      }
+    },
+    "Link a date" : {
+      "comment" : "Linked date picker: sheet title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Link a date"
+          }
+        }
+      }
+    },
+    "Linked date" : {
+      "comment" : "Gift detail: linked date section label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Linked date"
+          }
+        }
+      }
+    },
+    "Linked date (optional)" : {
+      "comment" : "Gift form: section label for linking a gift to a date",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Linked date (optional)"
+          }
+        }
+      }
+    },
+    "Made with love" : {
+      "comment" : "Settings: footer tagline",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Made with love"
+          }
+        }
+      }
+    },
+    "Man" : {
+      "comment" : "Profile editor: male gender option",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Man"
+          }
+        }
+      }
+    },
+    "Manage" : {
+      "comment" : "Category picker: button to manage categories",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manage"
+          }
+        }
+      }
+    },
+    "Manage categories" : {
+      "comment" : "Accessibility: manage categories button",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manage categories"
+          }
+        }
+      }
+    },
+    "Mark as %@" : {
+      "comment" : "Context menu: change gift status, e.g. 'Mark as purchased'",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mark as %@"
+          }
+        }
+      }
+    },
+    "Name" : {
+      "comment" : "Category form: label for name field\nForm field: item name label\nForm field: person's name label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Name"
+          }
+        }
+      }
+    },
+    "Never" : {
+      "comment" : "Recurrence: does not repeat"
+    },
+    "New category" : {
+      "comment" : "Category form: sheet title when creating",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New category"
+          }
+        }
+      }
+    },
+    "Next" : {
+      "comment" : "Onboarding: button to proceed to the next step",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next"
+          }
+        }
+      }
+    },
+    "No Account" : {
+      "comment" : "Settings: iCloud sync status badge when not signed in",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Account"
+          }
+        }
+      }
+    },
+    "No accounts, no sign-ups, no strings." : {
+      "comment" : "Onboarding privacy: second privacy bullet point",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No accounts, no sign-ups, no strings."
+          }
+        }
+      }
+    },
+    "No allergies yet" : {
+      "comment" : "Allergies: empty state title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No allergies yet"
+          }
+        }
+      }
+    },
+    "No dates found" : {
+      "comment" : "Important dates: shown when search returns no results\nLinked date picker: empty search result title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No dates found"
+          }
+        }
+      }
+    },
+    "No dates yet" : {
+      "comment" : "Important dates: empty state title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No dates yet"
+          }
+        }
+      }
+    },
+    "No dislikes yet" : {
+      "comment" : "Dislikes: empty state title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No dislikes yet"
+          }
+        }
+      }
+    },
+    "No gifts for current selection" : {
+      "comment" : "Gift ideas: shown when filter returns no results",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No gifts for current selection"
+          }
+        }
+      }
+    },
+    "No ideas saved" : {
+      "comment" : "Gift ideas: empty state title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No ideas saved"
+          }
+        }
+      }
+    },
+    "No important dates to link" : {
+      "comment" : "Gift form: shown when person has no dates to link",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No important dates to link"
+          }
+        }
+      }
+    },
+    "No items found" : {
+      "comment" : "Ask about: shown when search returns no results",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No items found"
+          }
+        }
+      }
+    },
+    "No likes yet" : {
+      "comment" : "Likes: empty state title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No likes yet"
+          }
+        }
+      }
+    },
+    "No orders match your search" : {
+      "comment" : "Food orders: shown when search returns no results",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No orders match your search"
+          }
+        }
+      }
+    },
+    "No orders saved" : {
+      "comment" : "Food orders: empty state title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No orders saved"
+          }
+        }
+      }
+    },
+    "No people yet" : {
+      "comment" : "Their people: empty state title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No people yet"
+          }
+        }
+      }
+    },
+    "No results" : {
+      "comment" : "Search: empty results message"
+    },
+    "No sizes yet" : {
+      "comment" : "Sizes: empty state title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No sizes yet"
+          }
+        }
+      }
+    },
+    "No tracking, no analytics, no peeking." : {
+      "comment" : "Onboarding privacy: first privacy bullet point",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No tracking, no analytics, no peeking."
+          }
+        }
+      }
+    },
+    "Non-binary" : {
+      "comment" : "Onboarding gender: non-binary option\nProfile editor: non-binary gender option",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non-binary"
+          }
+        }
+      }
+    },
+    "None" : {
+      "comment" : "Gift form: placeholder when no date is linked",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "None"
+          }
+        }
+      }
+    },
+    "None yet" : {
+      "comment" : "About card: placeholder when no items exist",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "None yet"
+          }
+        }
+      }
+    },
+    "Note" : {
+      "comment" : "Detail view: section label for a note",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note"
+          }
+        }
+      }
+    },
+    "Note (optional)" : {
+      "comment" : "Form field: optional note label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note (optional)"
+          }
+        }
+      }
+    },
+    "Notes" : {
+      "comment" : "Search: notes section header"
+    },
+    "Notes (optional)" : {
+      "comment" : "Form field: optional notes label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notes (optional)"
+          }
+        }
+      }
+    },
+    "Nothing to ask yet" : {
+      "comment" : "Ask about: empty state title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nothing to ask yet"
+          }
+        }
+      }
+    },
+    "Notifications" : {
+      "comment" : "Settings: notifications toggle row title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications"
+          }
+        }
+      }
+    },
+    "NOTIFICATIONS" : {
+      "comment" : "Settings: notifications section header",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NOTIFICATIONS"
+          }
+        }
+      }
+    },
+    "Oat milk, no onions, extra spicy..." : {
+      "comment" : "Food order form: placeholder for order notes and preferences",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oat milk, no onions, extra spicy..."
+          }
+        }
+      }
+    },
+    "Occasion" : {
+      "comment" : "Category picker: gift occasion section title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Occasion"
+          }
+        }
+      }
+    },
+    "Off" : {
+      "comment" : "Important date detail: reminder value when disabled",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Off"
+          }
+        }
+      }
+    },
+    "OK" : {
+      "comment" : "Generic OK button",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      }
+    },
+    "On the day" : {
+      "comment" : "Reminder option: notify on the date itself",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On the day"
+          }
+        }
+      }
+    },
+    "One thing he loves" : {
+      "comment" : "Onboarding like: prompt, male",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "One thing he loves"
+          }
+        }
+      }
+    },
+    "One thing she loves" : {
+      "comment" : "Onboarding like: prompt, female",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "One thing she loves"
+          }
+        }
+      }
+    },
+    "One thing they love" : {
+      "comment" : "Onboarding like: prompt, non-binary",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "One thing they love"
+          }
+        }
+      }
+    },
+    "One time" : {
+      "comment" : "Important date detail: recurrence value for non-repeating events",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "One time"
+          }
+        }
+      }
+    },
+    "Order" : {
+      "comment" : "Food order form: field label for the order details",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Order"
+          }
+        }
+      }
+    },
+    "Orders" : {
+      "comment" : "About: food orders card title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orders"
+          }
+        }
+      }
+    },
+    "Passed" : {
+      "comment" : "Date detail: label shown when a date has already passed",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passed"
+          }
+        }
+      }
+    },
+    "Past" : {
+      "comment" : "Important dates: section header for dates that have passed",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Past"
+          }
+        }
+      }
+    },
+    "People" : {
+      "comment" : "About: people card title\nSearch: people section header",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "People"
+          }
+        }
+      }
+    },
+    "Place" : {
+      "comment" : "Food order form: field label for the restaurant or venue",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Place"
+          }
+        }
+      }
+    },
+    "Price" : {
+      "comment" : "Gift idea detail: label for the price field",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Price"
+          }
+        }
+      }
+    },
+    "Price (optional)" : {
+      "comment" : "Gift form: optional price field label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Price (optional)"
+          }
+        }
+      }
+    },
+    "Profile Photo" : {
+      "comment" : "Profile header: title for photo action sheet",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile Photo"
+          }
+        }
+      }
+    },
+    "Purchased" : {
+      "comment" : "Gift status filter: purchased stage",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Purchased"
+          }
+        }
+      }
+    },
+    "Quirks & Habits" : {
+      "comment" : "Search: quirks section header"
+    },
+    "Recurring" : {
+      "comment" : "Accessibility: indicates date repeats annually",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recurring"
+          }
+        }
+      }
+    },
+    "Relationship" : {
+      "comment" : "Category picker: relationship type section title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Relationship"
+          }
+        }
+      }
+    },
+    "Reminder" : {
+      "comment" : "Date form: toggle label for date reminder\nImportant date detail: label for the reminder field",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reminder"
+          }
+        }
+      }
+    },
+    "Reminder time" : {
+      "comment" : "Settings: time picker row title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reminder time"
+          }
+        }
+      }
+    },
+    "Reminders for important dates" : {
+      "comment" : "Settings: notifications row subtitle",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reminders for important dates"
+          }
+        }
+      }
+    },
+    "Remove" : {
+      "comment" : "Due date picker: button to remove a due date",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove"
+          }
+        }
+      }
+    },
+    "Remove birthday" : {
+      "comment" : "Birthday picker: destructive button to remove birthday",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove birthday"
+          }
+        }
+      }
+    },
+    "Remove due date" : {
+      "comment" : "Ask about: destructive button to remove a due date",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove due date"
+          }
+        }
+      }
+    },
+    "Remove Photo" : {
+      "comment" : "Profile header: destructive option to delete profile photo",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove Photo"
+          }
+        }
+      }
+    },
+    "Repeat" : {
+      "comment" : "Date form: toggle label for recurrence"
+    },
+    "Repeats" : {
+      "comment" : "Important date detail: label for the recurrence field",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Repeats"
+          }
+        }
+      }
+    },
+    "Repeats every year" : {
+      "comment" : "Date form: subtitle explaining recurring toggle",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Repeats every year"
+          }
+        }
+      }
+    },
+    "Repeats on a schedule" : {
+      "comment" : "Date form: subtitle explaining repeat toggle"
+    },
+    "Reset" : {
+      "comment" : "Settings: destructive button to reset post-onboarding data",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset"
+          }
+        }
+      }
+    },
+    "Reset Post-Onboarding" : {
+      "comment" : "Settings: developer row to reset post-onboarding data",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset Post-Onboarding"
+          }
+        }
+      }
+    },
+    "Reset Post-Onboarding Data?" : {
+      "comment" : "Settings: dev-mode alert title for resetting post-onboarding data",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset Post-Onboarding Data?"
+          }
+        }
+      }
+    },
+    "Restaurant, cafe, bar..." : {
+      "comment" : "Food order form: placeholder for restaurant or venue name",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restaurant, cafe, bar..."
+          }
+        }
+      }
+    },
+    "Restricted" : {
+      "comment" : "Settings: iCloud sync status badge when access restricted",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restricted"
+          }
+        }
+      }
+    },
+    "Save" : {
+      "comment" : "Generic save button\nProfile editor: save button accessibility label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save"
+          }
+        }
+      }
+    },
+    "Save & finish" : {
+      "comment" : "Onboarding like: final button to save and complete setup",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save & finish"
+          }
+        }
+      }
+    },
+    "Search" : {
+      "comment" : "Generic search bar placeholder",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search"
+          }
+        }
+      }
+    },
+    "Search currencies" : {
+      "comment" : "Currency picker: search bar placeholder",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search currencies"
+          }
+        }
+      }
+    },
+    "Search dates" : {
+      "comment" : "Important dates: search bar placeholder\nLinked date picker: search bar placeholder",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search dates"
+          }
+        }
+      }
+    },
+    "Search everything" : {
+      "comment" : "Accessibility: open global search\nHome: global search placeholder"
+    },
+    "Search ideas" : {
+      "comment" : "Gift ideas: search bar placeholder",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search ideas"
+          }
+        }
+      }
+    },
+    "Search notes, gifts, dates, and more" : {
+      "comment" : "Search: prompt when search is empty"
+    },
+    "Search orders" : {
+      "comment" : "Food orders: search bar placeholder",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search orders"
+          }
+        }
+      }
+    },
+    "Send a notification in 3 seconds" : {
+      "comment" : "Settings: subtitle for test notification row",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send a notification in 3 seconds"
+          }
+        }
+      }
+    },
+    "Set" : {
+      "comment" : "Due date picker: button to confirm a due date",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set"
+          }
+        }
+      }
+    },
+    "Set due date" : {
+      "comment" : "Ask about: calendar toggle accessibility label\nContext menu: set a new due date",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set due date"
+          }
+        }
+      }
+    },
+    "Settings" : {
+      "comment" : "Accessibility: settings button label\nSettings: screen title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        }
+      }
+    },
+    "Show %@" : {
+      "comment" : "Accessibility: show hidden category",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show %@"
+          }
+        }
+      }
+    },
+    "Sign in to iCloud to sync" : {
+      "comment" : "Settings: iCloud subtitle when not signed in",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sign in to iCloud to sync"
+          }
+        }
+      }
+    },
+    "Size" : {
+      "comment" : "Size form: field label for the size value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Size"
+          }
+        }
+      }
+    },
+    "Sizes" : {
+      "comment" : "About: sizes card title\nSearch: sizes section header\nSizes: screen title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sizes"
+          }
+        }
+      }
+    },
+    "Skip for now" : {
+      "comment" : "Onboarding: button to skip an optional step",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skip for now"
+          }
+        }
+      }
+    },
+    "So we use the right words for them." : {
+      "comment" : "Onboarding gender: explains why we ask for gender (pronoun selection)",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "So we use the right words for them."
+          }
+        }
+      }
+    },
+    "Something he can't resist. Anything at all." : {
+      "comment" : "Onboarding like: hint, male",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Something he can't resist. Anything at all."
+          }
+        }
+      }
+    },
+    "Something she can't resist. Anything at all." : {
+      "comment" : "Onboarding like: hint, female",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Something she can't resist. Anything at all."
+          }
+        }
+      }
+    },
+    "Something they can't resist. Anything at all." : {
+      "comment" : "Onboarding like: hint, non-binary",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Something they can't resist. Anything at all."
+          }
+        }
+      }
+    },
+    "Something they dislike..." : {
+      "comment" : "Dislikes: text field placeholder",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Something they dislike..."
+          }
+        }
+      }
+    },
+    "Something they love..." : {
+      "comment" : "Likes: text field placeholder",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Something they love..."
+          }
+        }
+      }
+    },
+    "Something they love…" : {
+      "comment" : "Onboarding like: placeholder for the thing they love input",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Something they love…"
+          }
+        }
+      }
+    },
+    "Something they're allergic to..." : {
+      "comment" : "Allergy form: placeholder for allergy name",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Something they're allergic to..."
+          }
+        }
+      }
+    },
+    "Sort newest first" : {
+      "comment" : "Accessibility: sort button, currently oldest first",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sort newest first"
+          }
+        }
+      }
+    },
+    "Sort oldest first" : {
+      "comment" : "Accessibility: sort button, currently newest first",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sort oldest first"
+          }
+        }
+      }
+    },
+    "Source Code" : {
+      "comment" : "Settings: GitHub source code link"
+    },
+    "Start date" : {
+      "comment" : "Onboarding: label for the relationship start date picker",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start date"
+          }
+        }
+      }
+    },
+    "Start Over" : {
+      "comment" : "Settings: destructive row to delete all data",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start Over"
+          }
+        }
+      }
+    },
+    "Start Over?" : {
+      "comment" : "Settings: destructive alert title for deleting all data",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start Over?"
+          }
+        }
+      }
+    },
+    "Status" : {
+      "comment" : "Gift detail: status section label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status"
+          }
+        }
+      }
+    },
+    "Step %lld of %lld" : {
+      "comment" : "Accessibility: onboarding progress indicator, e.g. 'Step 3 of 6'",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Step %1$lld of %2$lld"
+          }
+        }
+      }
+    },
+    "Symbol" : {
+      "comment" : "Category form: label for icon picker",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Symbol"
+          }
+        }
+      }
+    },
+    "SYNC" : {
+      "comment" : "Settings: sync section header",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SYNC"
+          }
+        }
+      }
+    },
+    "Syncs across your devices" : {
+      "comment" : "Settings: iCloud subtitle when sync is active",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Syncs across your devices"
+          }
+        }
+      }
+    },
+    "System" : {
+      "comment" : "Settings: system theme option, follows device setting\nTheme option: follows device setting",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System"
+          }
+        }
+      }
+    },
+    "Tactile feedback on interactions" : {
+      "comment" : "Settings: haptic feedback row subtitle",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tactile feedback on interactions"
+          }
+        }
+      }
+    },
+    "Tell us about %@" : {
+      "comment" : "About view: empty state heading with person's name - translators can reorder",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tell us about %@"
+          }
+        }
+      }
+    },
+    "Test Notification" : {
+      "comment" : "Settings: developer row to send a test notification",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Test Notification"
+          }
+        }
+      }
+    },
+    "The day you became a thing." : {
+      "comment" : "Onboarding date: hint about the relationship start date",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The day you became a thing."
+          }
+        }
+      }
+    },
+    "The people who matter to them. Family, friends, coworkers, anyone worth remembering by name." : {
+      "comment" : "Their people: empty state description",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The people who matter to them. Family, friends, coworkers, anyone worth remembering by name."
+          }
+        }
+      }
+    },
+    "The things they'd rather avoid. Knowing what they don't like matters just as much." : {
+      "comment" : "Dislikes: empty state description",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The things they'd rather avoid. Knowing what they don't like matters just as much."
+          }
+        }
+      }
+    },
+    "The things to watch out for. Food allergies, dietary needs, the details that keep them safe and comfortable." : {
+      "comment" : "Allergies: empty state description",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The things to watch out for. Food allergies, dietary needs, the details that keep them safe and comfortable."
+          }
+        }
+      }
+    },
+    "Their birthday is in %lld days" : {
+      "comment" : "Home: birthday countdown, non-binary",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Their birthday is in %lld days"
+          }
+        }
+      }
+    },
+    "Their birthday is today!" : {
+      "comment" : "Home: birthday today, non-binary",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Their birthday is today!"
+          }
+        }
+      }
+    },
+    "Their birthday is tomorrow" : {
+      "comment" : "Home: birthday tomorrow, non-binary",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Their birthday is tomorrow"
+          }
+        }
+      }
+    },
+    "Their favorites, quirks, the little things that make them who they are. Keep it all in one place." : {
+      "comment" : "About: empty state description, non-binary",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Their favorites, quirks, the little things that make them who they are. Keep it all in one place."
+          }
+        }
+      }
+    },
+    "Their first name is perfect." : {
+      "comment" : "Onboarding name: hint to enter a first name",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Their first name is perfect."
+          }
+        }
+      }
+    },
+    "Their go-to orders, all in one place. You're at the counter, they're not with you. Open the app, read the order, done." : {
+      "comment" : "Food orders: empty state description",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Their go-to orders, all in one place. You're at the counter, they're not with you. Open the app, read the order, done."
+          }
+        }
+      }
+    },
+    "Their name" : {
+      "comment" : "Onboarding name: placeholder text for the name input field",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Their name"
+          }
+        }
+      }
+    },
+    "Their People" : {
+      "comment" : "Their people: screen title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Their People"
+          }
+        }
+      }
+    },
+    "Theme" : {
+      "comment" : "Settings: theme row title\nTheme picker: screen title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Theme"
+          }
+        }
+      }
+    },
+    "This cannot be undone." : {
+      "comment" : "Delete confirmation: warning that deletion is permanent",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This cannot be undone."
+          }
+        }
+      }
+    },
+    "This will clear all data added after onboarding (birthday, etc.) so you can test the new-user experience." : {
+      "comment" : "Settings: warning for resetting post-onboarding data",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This will clear all data added after onboarding (birthday, etc.) so you can test the new-user experience."
+          }
+        }
+      }
+    },
+    "This will delete all your data and cannot be undone." : {
+      "comment" : "Settings: warning message for start-over action",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This will delete all your data and cannot be undone."
+          }
+        }
+      }
+    },
+    "Title" : {
+      "comment" : "Form field: item title label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Title"
+          }
+        }
+      }
+    },
+    "Today" : {
+      "comment" : "Countdown: event is today\nDate detail: countdown showing the date is today\nDays since: event was today",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Today"
+          }
+        }
+      }
+    },
+    "Today is the day!" : {
+      "comment" : "Notification: event is today",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Today is the day!"
+          }
+        }
+      }
+    },
+    "Together for %@." : {
+      "comment" : "Duration: relationship length summary\nOnboarding date: duration since relationship started, e.g. 'Together for 2 years, 3 months.'",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Together for %@."
+          }
+        }
+      }
+    },
+    "TOGETHER SINCE" : {
+      "comment" : "Profile editor: relationship start date section header",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TOGETHER SINCE"
+          }
+        }
+      }
+    },
+    "Together since today." : {
+      "comment" : "Duration: relationship started today\nOnboarding date: shown when the start date is today",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Together since today."
+          }
+        }
+      }
+    },
+    "Tomorrow" : {
+      "comment" : "Countdown: event is tomorrow",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tomorrow"
+          }
+        }
+      }
+    },
+    "Tomorrow!" : {
+      "comment" : "Notification: event is tomorrow",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tomorrow!"
+          }
+        }
+      }
+    },
+    "Try a different search" : {
+      "comment" : "Linked date picker: empty search result suggestion",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try a different search"
+          }
+        }
+      }
+    },
+    "Try a different search or filter." : {
+      "comment" : "No results: suggestion to refine search or filter",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try a different search or filter."
+          }
+        }
+      }
+    },
+    "Try a different search term." : {
+      "comment" : "No results: suggestion to refine search",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try a different search term."
+          }
+        }
+      }
+    },
+    "Unavailable" : {
+      "comment" : "Settings: iCloud sync status badge when temporarily unavailable",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unavailable"
+          }
+        }
+      }
+    },
+    "Unknown" : {
+      "comment" : "Settings: iCloud sync status badge when status unknown",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown"
+          }
+        }
+      }
+    },
+    "Unlink date" : {
+      "comment" : "Linked date picker: button to remove date link",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unlink date"
+          }
+        }
+      }
+    },
+    "Upcoming" : {
+      "comment" : "Important dates: section header for future dates",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upcoming"
+          }
+        }
+      }
+    },
+    "Version" : {
+      "comment" : "Settings: version row title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version"
+          }
+        }
+      }
+    },
+    "What makes them light up? Favorite foods, hobbies, little pleasures -- keep track of it all." : {
+      "comment" : "Likes: empty state description",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What makes them light up? Favorite foods, hobbies, little pleasures -- keep track of it all."
+          }
+        }
+      }
+    },
+    "What they get..." : {
+      "comment" : "Food order form: placeholder for the order details",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What they get..."
+          }
+        }
+      }
+    },
+    "When did it all start?" : {
+      "comment" : "Onboarding date: prompt for relationship start date",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When did it all start?"
+          }
+        }
+      }
+    },
+    "When inspiration strikes, save it here. You'll thank yourself when her birthday comes around." : {
+      "comment" : "Gift ideas: empty state, female",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When inspiration strikes, save it here. You'll thank yourself when her birthday comes around."
+          }
+        }
+      }
+    },
+    "When inspiration strikes, save it here. You'll thank yourself when his birthday comes around." : {
+      "comment" : "Gift ideas: empty state, male",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When inspiration strikes, save it here. You'll thank yourself when his birthday comes around."
+          }
+        }
+      }
+    },
+    "When inspiration strikes, save it here. You'll thank yourself when their birthday comes around." : {
+      "comment" : "Gift ideas: empty state, non-binary",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When inspiration strikes, save it here. You'll thank yourself when their birthday comes around."
+          }
+        }
+      }
+    },
+    "When you get notified" : {
+      "comment" : "Settings: time picker row subtitle",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When you get notified"
+          }
+        }
+      }
+    },
+    "Who are you doing this for?" : {
+      "comment" : "Onboarding name: prompt asking who the user is creating a profile for",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Who are you doing this for?"
+          }
+        }
+      }
+    },
+    "Woman" : {
+      "comment" : "Profile editor: female gender option",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Woman"
+          }
+        }
+      }
+    },
+    "years old" : {
+      "comment" : "About: age label below number",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "years old"
+          }
+        }
+      }
+    },
+    "Your data has been restored." : {
+      "comment" : "Settings: success message after importing data",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your data has been restored."
+          }
+        }
+      }
+    },
+    "Your eyes only." : {
+      "comment" : "Onboarding privacy: headline about data privacy",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your eyes only."
+          }
+        }
+      }
+    },
+    "Your private space to remember what they love, important dates, gift ideas… the little things that make your relationship, yours." : {
+      "comment" : "Onboarding intro: description of the app's purpose",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your private space to remember what they love, important dates, gift ideas… the little things that make your relationship, yours."
+          }
+        }
+      }
+    },
+    "Yours, about " : {
+      "comment" : "Profile header: prefix before person's name in 'Yours, about [name].'",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yours, about "
+          }
+        }
+      }
+    },
+    "Yours." : {
+      "comment" : "Onboarding: app name branding\nSettings: app name branding",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yours."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

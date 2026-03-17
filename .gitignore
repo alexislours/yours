@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Fastlane
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots/
+**/fastlane/test_output
+
+# Build output
+build/
+
+# IDE
+.cursor/
+CLAUDE.md
+.vscode/
+.idea/
+
+# Project-specific
+ideas/

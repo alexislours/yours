@@ -1,0 +1,7 @@
+project: yours.xcodeproj
+schemes:
+- yours
+retain_codable_properties: true
+report_exclude:
+- "yoursTests/*"
+- "yoursUITests/*"
