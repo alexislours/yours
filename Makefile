@@ -1,16 +1,16 @@
 .PHONY: lint lint-fix format format-check build test test-ci periphery screenshots
 
 lint:
-	swiftlint lint yours/ YoursWidgets/
+	swiftlint lint yours/ YoursWidgets/ YoursShare/
 
 lint-fix:
-	swiftlint lint --fix yours/ YoursWidgets/
+	swiftlint lint --fix yours/ YoursWidgets/ YoursShare/
 
 format:
-	swiftformat yours/ YoursWidgets/
+	swiftformat yours/ YoursWidgets/ YoursShare/
 
 format-check:
-	swiftformat --lint yours/ YoursWidgets/
+	swiftformat --lint yours/ YoursWidgets/ YoursShare/
 
 build:
 	xcodebuild -scheme yours -destination 'platform=iOS Simulator,name=iPhone 17 Pro' build

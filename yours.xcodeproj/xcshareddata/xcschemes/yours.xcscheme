@@ -21,6 +21,20 @@
                ReferencedContainer = "container:yours.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "335941492F6A29E4005204D8"
+               BuildableName = "YoursShare.appex"
+               BlueprintName = "YoursShare"
+               ReferencedContainer = "container:yours.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction

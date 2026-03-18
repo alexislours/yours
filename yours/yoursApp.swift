@@ -193,8 +193,9 @@ struct AppRootView: View {
         }
         .onChange(of: scenePhase) {
             if scenePhase == .active {
-                if person != nil {
+                if let person {
                     QuickActionService.registerShortcuts()
+                    PendingGiftImportService.importPending(for: person, in: modelContext)
                 } else {
                     QuickActionService.clearShortcuts()
                 }

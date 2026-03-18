@@ -72,39 +72,9 @@ enum GiftStatus: String, CaseIterable, Codable {
     }
 }
 
-// MARK: - Predefined Occasions
+// MARK: - PredefinedCategoryType Conformance
 
-enum GiftOccasion: String, CaseIterable, Codable, PredefinedCategoryType {
-    case birthday
-    case anniversary
-    case holiday
-    case justBecause
-
-    nonisolated var displayName: String {
-        switch self {
-        case .justBecause: "Just Because"
-        default: rawValue.capitalized
-        }
-    }
-
-    nonisolated var icon: String {
-        switch self {
-        case .birthday: "birthday.cake.fill"
-        case .anniversary: "heart.fill"
-        case .holiday: "airplane"
-        case .justBecause: "sparkles"
-        }
-    }
-
-    nonisolated var colorName: String {
-        switch self {
-        case .birthday: "accentRose"
-        case .anniversary: "accentSecondary"
-        case .holiday: "caution"
-        case .justBecause: "accentPrimary"
-        }
-    }
-}
+extension GiftOccasion: PredefinedCategoryType {}
 
 // MARK: - CategorizedItem
 
