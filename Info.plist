@@ -18,6 +18,8 @@
 		<string>CrimsonPro.ttf</string>
 		<string>Inter.ttf</string>
 	</array>
+	<key>NSCalendarsWriteOnlyAccessUsageDescription</key>
+	<string>Yours. can add your important dates to your calendar so you never miss them.</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>

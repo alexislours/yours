@@ -9,6 +9,10 @@ struct ImportantDateDetailView: View {
 
     @State private var showingEditSheet = false
     @State private var showingDeleteAlert = false
+    @State private var showCalendarToast = false
+    @State private var showCalendarDeniedToast = false
+    @State private var showCalendarSettingsAlert = false
+    @State private var calendarEvent: CalendarEventWrapper?
     @State private var selectedGiftIdea: GiftIdea?
 
     var body: some View {
@@ -74,6 +78,8 @@ struct ImportantDateDetailView: View {
                         giftIdeasSection
                     }
 
+                    addToCalendarButton
+
                     // MARK: - Delete
 
                     DeleteButton(label: String(localized: "Delete date", comment: "Important date detail: button to delete this date")) {
@@ -100,6 +106,39 @@ struct ImportantDateDetailView: View {
                     customCategories: customCategories
                 )
             }
+        }
+        .sheet(item: $calendarEvent) { wrapper in
+            CalendarEventEditSheet(
+                event: wrapper.event,
+                eventStore: CalendarService.shared.eventStore
+            ) { saved in
+                calendarEvent = nil
+                if saved { showCalendarToast = true }
+            }
+        }
+        .toast(
+            String(localized: "Added to calendar", comment: "Toast: calendar event saved successfully"),
+            isPresented: $showCalendarToast
+        )
+        .toast(
+            String(localized: "Calendar access denied", comment: "Toast: calendar permission was denied"),
+            isPresented: $showCalendarDeniedToast
+        )
+        .alert(
+            String(localized: "Calendar access denied", comment: "Alert title: calendar permission was denied"),
+            isPresented: $showCalendarSettingsAlert
+        ) {
+            Button(String(localized: "Open Settings", comment: "Alert button: open device Settings app")) {
+                if let url = URL(string: UIApplication.openSettingsURLString) {
+                    UIApplication.shared.open(url)
+                }
+            }
+            Button(String(localized: "Cancel", comment: "Generic cancel button"), role: .cancel) {}
+        } message: {
+            Text(String(
+                localized: "Allow calendar access in Settings to add dates to your calendar.",
+                comment: "Alert message: guide user to enable calendar permission in Settings"
+            ))
         }
         .deleteConfirmation(
             String(localized: "Delete date?", comment: "Delete confirmation: title for deleting a date"),
@@ -178,6 +217,44 @@ struct ImportantDateDetailView: View {
             return String(localized: "day away", comment: "Date detail: singular countdown unit")
         }
         return String(localized: "days away", comment: "Date detail: plural countdown unit")
+    }
+
+    // MARK: - Add to Calendar
+
+    private var addToCalendarButton: some View {
+        Button {
+            Task {
+                let result = await CalendarService.shared.requestAccess()
+                switch result {
+                case .granted:
+                    let event = CalendarService.shared.makeEvent(from: date)
+                    calendarEvent = CalendarEventWrapper(event: event)
+                case .denied:
+                    showCalendarDeniedToast = true
+                case .permanentlyDenied:
+                    showCalendarSettingsAlert = true
+                }
+            }
+        } label: {
+            HStack(spacing: Spacing.sm) {
+                Image(systemName: "calendar.badge.plus")
+                    .font(.custom(FontFamily.ui, size: 14, relativeTo: .subheadline))
+                    .accessibilityHidden(true)
+                Text(String(localized: "Add to Calendar", comment: "Important date detail: button to export date to device calendar"))
+                    .font(.custom(FontFamily.ui, size: 14, relativeTo: .subheadline))
+                    .fontWeight(.medium)
+            }
+            .foregroundStyle(Color.accentSecondary)
+            .frame(maxWidth: .infinity)
+            .padding(.vertical, Spacing.lg)
+            .background(Color.accentSecondary.opacity(Opacity.subtleBackground))
+            .clipShape(RoundedRectangle(cornerRadius: CornerRadius.lg))
+            .overlay(
+                RoundedRectangle(cornerRadius: CornerRadius.lg)
+                    .strokeBorder(Color.accentSecondary.opacity(Opacity.subtleBorder), lineWidth: 1)
+            )
+        }
+        .buttonStyle(.pressable)
     }
 
     // MARK: - Linked Gifts

@@ -1537,6 +1537,40 @@
         }
       }
     },
+    "Add to Calendar" : {
+      "comment" : "Important date detail: button to export date to device calendar",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add to Calendar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter au calendrier"
+          }
+        }
+      }
+    },
+    "Added to calendar" : {
+      "comment" : "Toast: calendar event saved successfully",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Added to calendar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouté au calendrier"
+          }
+        }
+      }
+    },
     "All" : {
       "comment" : "Filter chip: label to show all items without filtering",
       "localizations" : {
@@ -1584,6 +1618,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Allergies"
+          }
+        }
+      }
+    },
+    "Allow calendar access in Settings to add dates to your calendar." : {
+      "comment" : "Alert message: guide user to enable calendar permission in Settings",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow calendar access in Settings to add dates to your calendar."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autorisez l’accès au calendrier dans les Réglages pour ajouter des dates à votre calendrier."
           }
         }
       }
@@ -1975,6 +2026,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prédéfini"
+          }
+        }
+      }
+    },
+    "Calendar access denied" : {
+      "comment" : "Alert title: calendar permission was denied\nToast: calendar permission was denied",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calendar access denied"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accès au calendrier refusé"
           }
         }
       }
@@ -5386,6 +5454,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Une seule fois"
+          }
+        }
+      }
+    },
+    "Open Settings" : {
+      "comment" : "Alert button: open device Settings app",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Settings"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvrir les Réglages"
           }
         }
       }

@@ -24,6 +24,24 @@
           }
         }
       }
+    },
+    "NSCalendarsWriteOnlyAccessUsageDescription" : {
+      "comment" : "Privacy - Calendars Write Only Usage Description",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Yours. can add your important dates to your calendar so you never miss them."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yours. peut ajouter vos dates importantes à votre calendrier pour ne jamais les oublier."
+          }
+        }
+      }
     }
   },
   "version" : "1.0"
