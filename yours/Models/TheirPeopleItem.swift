@@ -43,15 +43,15 @@ enum TheirPeoplePredefinedCategory: String, CaseIterable, Codable, PredefinedCat
 
     nonisolated var displayName: String {
         switch self {
-        case .mom: "Mom"
-        case .dad: "Dad"
-        case .sibling: "Sibling"
-        case .grandparent: "Grandparent"
-        case .child: "Child"
-        case .extendedFamily: "Extended Family"
-        case .friend: "Friend"
-        case .coworker: "Coworker"
-        case .other: "Other"
+        case .mom: String(localized: "Mom", comment: "Their people category: mom")
+        case .dad: String(localized: "Dad", comment: "Their people category: dad")
+        case .sibling: String(localized: "Sibling", comment: "Their people category: sibling")
+        case .grandparent: String(localized: "Grandparent", comment: "Their people category: grandparent")
+        case .child: String(localized: "Child", comment: "Their people category: child")
+        case .extendedFamily: String(localized: "Extended Family", comment: "Their people category: extended family")
+        case .friend: String(localized: "Friend", comment: "Their people category: friend")
+        case .coworker: String(localized: "Coworker", comment: "Their people category: coworker")
+        case .other: String(localized: "Other", comment: "Their people category: other")
         }
     }
 

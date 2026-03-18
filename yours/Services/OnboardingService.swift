@@ -28,7 +28,7 @@ enum OnboardingService {
         modelContext.insert(person)
 
         let anniversary = ImportantDate(
-            title: "Our Anniversary",
+            title: String(localized: "Our Anniversary", comment: "Onboarding: auto-created anniversary event title"),
             date: input.startDate,
             recurrenceFrequency: .yearly,
             predefinedCategory: .anniversary,

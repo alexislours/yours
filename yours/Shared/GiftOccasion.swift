@@ -12,8 +12,10 @@ enum GiftOccasion: String, CaseIterable, Codable, Identifiable {
 
     var displayName: String {
         switch self {
-        case .justBecause: "Just Because"
-        default: rawValue.capitalized
+        case .birthday: String(localized: "Birthday", comment: "Gift occasion: birthday")
+        case .anniversary: String(localized: "Anniversary", comment: "Gift occasion: anniversary")
+        case .holiday: String(localized: "Holiday", comment: "Gift occasion: holiday")
+        case .justBecause: String(localized: "Just Because", comment: "Gift occasion: just because")
         }
     }
 

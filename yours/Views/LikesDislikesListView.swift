@@ -18,8 +18,8 @@ struct LikesDislikesListView: View {
 
         var title: String {
             switch self {
-            case .likes: "Likes"
-            case .dislikes: "Dislikes"
+            case .likes: String(localized: "Likes", comment: "Likes/dislikes: likes screen title")
+            case .dislikes: String(localized: "Dislikes", comment: "Likes/dislikes: dislikes screen title")
             }
         }
 

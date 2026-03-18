@@ -9,6 +9,12 @@
             "state" : "translated",
             "value" : "."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "."
+          }
         }
       }
     },
@@ -19,6 +25,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ is…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ est…"
           }
         }
       }
@@ -31,6 +43,12 @@
             "state" : "translated",
             "value" : "%@, profile photo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, photo de profil"
+          }
         }
       }
     },
@@ -42,6 +60,12 @@
             "state" : "translated",
             "value" : "%@’s Birthday"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anniversaire de %@"
+          }
         }
       }
     },
@@ -52,6 +76,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@'s profile photo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photo de profil de %@"
           }
         }
       }
@@ -76,6 +106,24 @@
               }
             }
           }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld allergie"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld allergies"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -83,6 +131,24 @@
       "comment" : "Category badge: date count\nHome: important dates badge count",
       "localizations" : {
         "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld date"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld dates"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
           "variations" : {
             "plural" : {
               "one" : {
@@ -122,6 +188,24 @@
               }
             }
           }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld jour"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld jours"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -141,6 +225,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld days ago"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Il y a %lld jour"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Il y a %lld jours"
                 }
               }
             }
@@ -168,6 +270,24 @@
               }
             }
           }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld jour avant"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld jours avant"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -187,6 +307,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld dislikes"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld chose à éviter"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld choses à éviter"
                 }
               }
             }
@@ -214,6 +352,24 @@
               }
             }
           }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld idée"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld idées"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -233,6 +389,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld items"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld élément"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld éléments"
                 }
               }
             }
@@ -260,6 +434,24 @@
               }
             }
           }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld préférence"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld préférences"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -279,6 +471,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld months"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld mois"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld mois"
                 }
               }
             }
@@ -306,6 +516,24 @@
               }
             }
           }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld commande"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld commandes"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -316,6 +544,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld people"
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld personne"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld personnes"
+                }
+              }
+            }
           }
         }
       }
@@ -336,6 +582,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld sizes"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld taille"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld tailles"
                 }
               }
             }
@@ -363,6 +627,24 @@
               }
             }
           }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld sujet à aborder"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld sujets à aborder"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -382,6 +664,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld years"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld an"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld ans"
                 }
               }
             }
@@ -409,6 +709,24 @@
               }
             }
           }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld an"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld ans"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -419,6 +737,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "0.00"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0,00"
           }
         }
       }
@@ -431,6 +755,12 @@
             "state" : "translated",
             "value" : "1 day ago"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hier"
+          }
         }
       }
     },
@@ -441,6 +771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 day before"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 jour avant"
           }
         }
       }
@@ -453,6 +789,12 @@
             "state" : "translated",
             "value" : "1 month before"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 mois avant"
+          }
         }
       }
     },
@@ -463,6 +805,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 week before"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 semaine avant"
           }
         }
       }
@@ -475,6 +823,12 @@
             "state" : "translated",
             "value" : "2 days before"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 jours avant"
+          }
         }
       }
     },
@@ -485,6 +839,29 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2 weeks before"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 semaines avant"
+          }
+        }
+      }
+    },
+    "2, 4, 6 or XS, S, M..." : {
+      "comment" : "Size placeholder: dresses",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2, 4, 6 or XS, S, M..."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "34, 36, 38 ou XS, S, M..."
           }
         }
       }
@@ -497,6 +874,46 @@
             "state" : "translated",
             "value" : "3 days before"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 jours avant"
+          }
+        }
+      }
+    },
+    "28, 30, 32 or S, M, L..." : {
+      "comment" : "Size placeholder: bottoms",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "28, 30, 32 or S, M, L..."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "38, 40, 42 ou S, M, L..."
+          }
+        }
+      }
+    },
+    "32B, 34C, 36D..." : {
+      "comment" : "Size placeholder: bras",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "32B, 34C, 36D..."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "85B, 90C, 95D..."
+          }
         }
       }
     },
@@ -507,6 +924,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A man"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un homme"
           }
         }
       }
@@ -519,6 +942,12 @@
             "state" : "translated",
             "value" : "A place for everything\nthat makes them, them."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un endroit pour tout ce qui\nfait leur singularité."
+          }
         }
       }
     },
@@ -529,6 +958,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A woman"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Une femme"
           }
         }
       }
@@ -541,6 +976,12 @@
             "state" : "translated",
             "value" : "ABOUT"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À PROPOS"
+          }
         }
       }
     },
@@ -551,6 +992,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "About %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À propos de %@"
           }
         }
       }
@@ -563,6 +1010,29 @@
             "state" : "translated",
             "value" : "Active"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actif"
+          }
+        }
+      }
+    },
+    "Activities & Hobbies" : {
+      "comment" : "Like/dislike category: activities",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activities & Hobbies"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activités et loisirs"
+          }
         }
       }
     },
@@ -573,6 +1043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter"
           }
         }
       }
@@ -585,6 +1061,12 @@
             "state" : "translated",
             "value" : "Add %@"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter %@"
+          }
         }
       }
     },
@@ -595,6 +1077,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add a %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter : %@"
           }
         }
       }
@@ -607,6 +1095,12 @@
             "state" : "translated",
             "value" : "Add a date"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une date"
+          }
         }
       }
     },
@@ -617,6 +1111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add a dislike"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une chose à éviter"
           }
         }
       }
@@ -629,6 +1129,12 @@
             "state" : "translated",
             "value" : "Add a Gift Idea"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une idée cadeau"
+          }
         }
       }
     },
@@ -639,6 +1145,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add a like"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une préférence"
           }
         }
       }
@@ -651,6 +1163,12 @@
             "state" : "translated",
             "value" : "Add a Note"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une note"
+          }
         }
       }
     },
@@ -661,6 +1179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add a person"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une personne"
           }
         }
       }
@@ -673,6 +1197,29 @@
             "state" : "translated",
             "value" : "Add a question"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une question"
+          }
+        }
+      }
+    },
+    "Add a quirk" : {
+      "comment" : "Quirks: empty state button",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add a quirk"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une petite habitude"
+          }
         }
       }
     },
@@ -684,6 +1231,12 @@
             "state" : "translated",
             "value" : "Add a size"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une taille"
+          }
         }
       }
     },
@@ -693,6 +1246,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add allergy"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une allergie"
           }
         }
       }
@@ -705,6 +1264,12 @@
             "state" : "translated",
             "value" : "Add an allergy"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une allergie"
+          }
         }
       }
     },
@@ -715,6 +1280,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add an idea"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une idée"
           }
         }
       }
@@ -727,6 +1298,12 @@
             "state" : "translated",
             "value" : "Add an order"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une commande"
+          }
         }
       }
     },
@@ -737,6 +1314,12 @@
             "state" : "translated",
             "value" : "Add category"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une catégorie"
+          }
         }
       }
     },
@@ -746,6 +1329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add date"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une date"
           }
         }
       }
@@ -758,6 +1347,12 @@
             "state" : "translated",
             "value" : "Add details"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter des détails"
+          }
         }
       }
     },
@@ -767,6 +1362,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add dislike"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une chose à éviter"
           }
         }
       }
@@ -778,6 +1379,12 @@
             "state" : "translated",
             "value" : "Add gift idea"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une idée cadeau"
+          }
         }
       }
     },
@@ -788,15 +1395,28 @@
             "state" : "translated",
             "value" : "Add like"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une préférence"
+          }
         }
       }
     },
     "Add note" : {
+      "comment" : "Notes: FAB accessibility label",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add note"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une note"
           }
         }
       }
@@ -808,6 +1428,12 @@
             "state" : "translated",
             "value" : "Add order"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une commande"
+          }
         }
       }
     },
@@ -817,6 +1443,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add person"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une personne"
           }
         }
       }
@@ -829,15 +1461,28 @@
             "state" : "translated",
             "value" : "Add photo for %@"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une photo pour %@"
+          }
         }
       }
     },
     "Add quirk" : {
+      "comment" : "Quirks: FAB accessibility label",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add quirk"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une petite habitude"
           }
         }
       }
@@ -848,6 +1493,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add size"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une taille"
           }
         }
       }
@@ -860,6 +1511,12 @@
             "state" : "translated",
             "value" : "Add something to ask about"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter un sujet à aborder"
+          }
         }
       }
     },
@@ -870,6 +1527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add their first size"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter sa première taille"
           }
         }
       }
@@ -882,6 +1545,12 @@
             "state" : "translated",
             "value" : "All"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tout"
+          }
         }
       }
     },
@@ -892,6 +1561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "All about %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tout sur %@"
           }
         }
       }
@@ -904,6 +1579,46 @@
             "state" : "translated",
             "value" : "Allergies"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allergies"
+          }
+        }
+      }
+    },
+    "Animals" : {
+      "comment" : "Like/dislike category: animals",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Animals"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Animaux"
+          }
+        }
+      }
+    },
+    "Anniversary" : {
+      "comment" : "Date category: anniversary\nGift occasion: anniversary",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anniversary"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date anniversaire"
+          }
         }
       }
     },
@@ -914,6 +1629,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Any details to remember"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Détails à retenir"
           }
         }
       }
@@ -926,6 +1647,29 @@
             "state" : "translated",
             "value" : "APPEARANCE"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "APPARENCE"
+          }
+        }
+      }
+    },
+    "Aquarius" : {
+      "comment" : "Zodiac sign",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aquarius"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verseau"
+          }
         }
       }
     },
@@ -937,16 +1681,45 @@
             "state" : "translated",
             "value" : "Archive"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archiver"
+          }
         }
       }
     },
     "Archived" : {
-      "comment" : "Gift status filter: archived stage",
+      "comment" : "Gift status filter: archived stage\nGift status: archived",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Archived"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archivé"
+          }
+        }
+      }
+    },
+    "Aries" : {
+      "comment" : "Zodiac sign",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aries"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bélier"
           }
         }
       }
@@ -959,11 +1732,31 @@
             "state" : "translated",
             "value" : "Ask %@ about"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À demander à %@"
+          }
         }
       }
     },
     "Ask about" : {
-      "comment" : "Search: ask about section header"
+      "comment" : "Search: ask about section header",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ask about"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À demander"
+          }
+        }
+      }
     },
     "Ask her about" : {
       "comment" : "Home: ask-about card title, female",
@@ -972,6 +1765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ask her about"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À lui demander"
           }
         }
       }
@@ -984,6 +1783,12 @@
             "state" : "translated",
             "value" : "Ask him about"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À lui demander"
+          }
         }
       }
     },
@@ -994,6 +1799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ask them about"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À leur demander"
           }
         }
       }
@@ -1006,6 +1817,12 @@
             "state" : "translated",
             "value" : "Back"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retour"
+          }
         }
       }
     },
@@ -1016,6 +1833,29 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Begin"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commencer"
+          }
+        }
+      }
+    },
+    "Birthday" : {
+      "comment" : "Date category: birthday\nGift occasion: birthday",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Birthday"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anniversaire"
           }
         }
       }
@@ -1028,6 +1868,12 @@
             "state" : "translated",
             "value" : "BIRTHDAY"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ANNIVERSAIRE"
+          }
         }
       }
     },
@@ -1038,6 +1884,80 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Birthdays, anniversaries, and the little dates that matter. Add them here so you never forget."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anniversaires, dates clés et tous les petits moments qui comptent. Ajoutez-les ici pour ne jamais les oublier."
+          }
+        }
+      }
+    },
+    "Books" : {
+      "comment" : "Like/dislike category: books",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Books"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Livres"
+          }
+        }
+      }
+    },
+    "Bottoms" : {
+      "comment" : "Clothing size category: bottoms",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bottoms"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bas"
+          }
+        }
+      }
+    },
+    "Bras" : {
+      "comment" : "Clothing size category: bras",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bras"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soutiens-gorge"
+          }
+        }
+      }
+    },
+    "Breakfast" : {
+      "comment" : "Food order category: breakfast",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Breakfast"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Petit-déjeuner"
           }
         }
       }
@@ -1050,6 +1970,12 @@
             "state" : "translated",
             "value" : "Built-in"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prédéfini"
+          }
         }
       }
     },
@@ -1060,6 +1986,63 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancel"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuler"
+          }
+        }
+      }
+    },
+    "Cancer" : {
+      "comment" : "Zodiac sign",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancer"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancer"
+          }
+        }
+      }
+    },
+    "Capricorn" : {
+      "comment" : "Zodiac sign",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Capricorn"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Capricorne"
+          }
+        }
+      }
+    },
+    "Categories" : {
+      "comment" : "Manage categories: default section header",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Categories"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catégories"
           }
         }
       }
@@ -1072,6 +2055,12 @@
             "state" : "translated",
             "value" : "Category"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catégorie"
+          }
         }
       }
     },
@@ -1082,6 +2071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Change due date"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifier l'échéance"
           }
         }
       }
@@ -1094,6 +2089,12 @@
             "state" : "translated",
             "value" : "Change photo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Changer la photo"
+          }
         }
       }
     },
@@ -1104,6 +2105,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Change Photo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Changer la photo"
           }
         }
       }
@@ -1116,6 +2123,12 @@
             "state" : "translated",
             "value" : "Checking"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vérification"
+          }
         }
       }
     },
@@ -1126,6 +2139,29 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Checking iCloud status..."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vérification de l'état d'iCloud..."
+          }
+        }
+      }
+    },
+    "Child" : {
+      "comment" : "Their people category: child",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Child"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enfant"
           }
         }
       }
@@ -1138,6 +2174,12 @@
             "state" : "translated",
             "value" : "Choose a photo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choisir une photo"
+          }
         }
       }
     },
@@ -1148,6 +2190,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Clear all"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tout effacer"
           }
         }
       }
@@ -1160,6 +2208,12 @@
             "state" : "translated",
             "value" : "Clear all done items?"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Effacer les éléments terminés ?"
+          }
         }
       }
     },
@@ -1171,11 +2225,48 @@
             "state" : "translated",
             "value" : "Clear search"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Effacer la recherche"
+          }
         }
       }
     },
     "Close search" : {
-      "comment" : "Accessibility: close global search"
+      "comment" : "Accessibility: close global search",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close search"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fermer la recherche"
+          }
+        }
+      }
+    },
+    "Coffee" : {
+      "comment" : "Food order category: coffee",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coffee"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Café"
+          }
+        }
+      }
     },
     "Color" : {
       "comment" : "Category form: label for color picker",
@@ -1184,6 +2275,29 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Color"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couleur"
+          }
+        }
+      }
+    },
+    "Colors" : {
+      "comment" : "Like/dislike category: colors",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Colors"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couleurs"
           }
         }
       }
@@ -1208,6 +2322,24 @@
               }
             }
           }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Prévu dans %lld jour."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Prévu dans %lld jours."
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -1218,6 +2350,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copied to clipboard"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copié dans le presse-papiers"
           }
         }
       }
@@ -1230,6 +2368,12 @@
             "state" : "translated",
             "value" : "Copy"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copier"
+          }
         }
       }
     },
@@ -1240,6 +2384,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copy order"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copier la commande"
           }
         }
       }
@@ -1252,6 +2402,12 @@
             "state" : "translated",
             "value" : "Could not check iCloud status"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossible de vérifier l'état d'iCloud"
+          }
         }
       }
     },
@@ -1262,6 +2418,29 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Could not read the file."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossible de lire le fichier."
+          }
+        }
+      }
+    },
+    "Coworker" : {
+      "comment" : "Their people category: coworker",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coworker"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Collègue"
           }
         }
       }
@@ -1274,6 +2453,12 @@
             "state" : "translated",
             "value" : "Currency"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Devise"
+          }
         }
       }
     },
@@ -1284,6 +2469,29 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Custom"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Personnalisé"
+          }
+        }
+      }
+    },
+    "Dad" : {
+      "comment" : "Their people category: dad",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dad"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papa"
           }
         }
       }
@@ -1296,6 +2504,12 @@
             "state" : "translated",
             "value" : "Dark"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sombre"
+          }
         }
       }
     },
@@ -1306,6 +2520,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "DATA"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DONNÉES"
           }
         }
       }
@@ -1318,11 +2538,31 @@
             "state" : "translated",
             "value" : "Date"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
         }
       }
     },
     "day away" : {
-      "comment" : "Date detail: singular countdown unit"
+      "comment" : "Date detail: singular countdown unit",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "day away"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "jour restant"
+          }
+        }
+      }
     },
     "days away" : {
       "comment" : "Date detail: plural countdown unit",
@@ -1331,6 +2571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "days away"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "jours restants"
           }
         }
       }
@@ -1343,6 +2589,12 @@
             "state" : "translated",
             "value" : "Delete"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer"
+          }
         }
       }
     },
@@ -1353,6 +2605,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete all data and reset"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer toutes les données et réinitialiser"
           }
         }
       }
@@ -1365,6 +2623,12 @@
             "state" : "translated",
             "value" : "Delete allergy?"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer l'allergie ?"
+          }
         }
       }
     },
@@ -1375,6 +2639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete category?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer la catégorie ?"
           }
         }
       }
@@ -1387,6 +2657,12 @@
             "state" : "translated",
             "value" : "Delete date"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer la date"
+          }
         }
       }
     },
@@ -1397,6 +2673,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete date?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer la date ?"
           }
         }
       }
@@ -1409,6 +2691,12 @@
             "state" : "translated",
             "value" : "Delete dislike?"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer la chose à éviter ?"
+          }
         }
       }
     },
@@ -1419,6 +2707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete Everything"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tout supprimer"
           }
         }
       }
@@ -1431,6 +2725,12 @@
             "state" : "translated",
             "value" : "Delete idea"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer l'idée"
+          }
         }
       }
     },
@@ -1441,6 +2741,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete idea?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer l'idée ?"
           }
         }
       }
@@ -1453,6 +2759,29 @@
             "state" : "translated",
             "value" : "Delete like?"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer la préférence ?"
+          }
+        }
+      }
+    },
+    "Delete note?" : {
+      "comment" : "Notes: delete confirmation",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete note?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer la note ?"
+          }
         }
       }
     },
@@ -1463,6 +2792,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete order?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer la commande ?"
           }
         }
       }
@@ -1475,6 +2810,29 @@
             "state" : "translated",
             "value" : "Delete person?"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer la personne ?"
+          }
+        }
+      }
+    },
+    "Delete quirk?" : {
+      "comment" : "Quirks: delete confirmation",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete quirk?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer la petite habitude ?"
+          }
         }
       }
     },
@@ -1485,6 +2843,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete size"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer la taille"
           }
         }
       }
@@ -1497,6 +2861,29 @@
             "state" : "translated",
             "value" : "Delete size?"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer la taille ?"
+          }
+        }
+      }
+    },
+    "Dessert" : {
+      "comment" : "Food order category: dessert",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dessert"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dessert"
+          }
         }
       }
     },
@@ -1507,6 +2894,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "DEVELOPER"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DÉVELOPPEUR"
           }
         }
       }
@@ -1519,6 +2912,12 @@
             "state" : "translated",
             "value" : "Developer Mode"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mode développeur"
+          }
         }
       }
     },
@@ -1529,6 +2928,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Developer Mode Enabled"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mode développeur activé"
           }
         }
       }
@@ -1541,16 +2946,62 @@
             "state" : "translated",
             "value" : "Did %@ mention a job interview, a doctor's visit, or something they were excited about? Add it here so you remember to follow up."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ a mentionné un entretien d'embauche, un rendez-vous médical ou un projet qui l'enthousiasme ? Notez-le ici pour ne pas oublier d'en reparler."
+          }
+        }
+      }
+    },
+    "Dietary" : {
+      "comment" : "Allergy category: dietary",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dietary"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Régime alimentaire"
+          }
+        }
+      }
+    },
+    "Dinner" : {
+      "comment" : "Food order category: dinner",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dinner"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dîner"
+          }
         }
       }
     },
     "Dislikes" : {
-      "comment" : "About: dislikes card title\nSearch: dislikes section header",
+      "comment" : "About: dislikes card title\nLikes/dislikes: dislikes screen title\nSearch: dislikes section header",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dislikes"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choses à éviter"
           }
         }
       }
@@ -1563,6 +3014,46 @@
             "state" : "translated",
             "value" : "Done"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminé"
+          }
+        }
+      }
+    },
+    "Dresses" : {
+      "comment" : "Clothing size category: dresses",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dresses"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Robes"
+          }
+        }
+      }
+    },
+    "Drinks" : {
+      "comment" : "Food order category: drinks",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drinks"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boissons"
+          }
         }
       }
     },
@@ -1573,6 +3064,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Due date"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date d'échéance"
           }
         }
       }
@@ -1585,6 +3082,12 @@
             "state" : "translated",
             "value" : "Due Date"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date d'échéance"
+          }
         }
       }
     },
@@ -1595,6 +3098,29 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "e.g. amazon.com/..."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ex : amazon.fr/..."
+          }
+        }
+      }
+    },
+    "e.g. Gadgets" : {
+      "comment" : "Gift categories: new category placeholder",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "e.g. Gadgets"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ex : Gadgets"
           }
         }
       }
@@ -1607,6 +3133,12 @@
             "state" : "translated",
             "value" : "e.g. Lives in Portland"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ex : Habite à Paris"
+          }
         }
       }
     },
@@ -1617,6 +3149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "e.g. Mom's birthday"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ex : Anniversaire de sa mère"
           }
         }
       }
@@ -1629,6 +3167,12 @@
             "state" : "translated",
             "value" : "e.g. Vintage Polaroid camera"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ex : Appareil photo Polaroid vintage"
+          }
         }
       }
     },
@@ -1639,6 +3183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Edit"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifier"
           }
         }
       }
@@ -1651,6 +3201,12 @@
             "state" : "translated",
             "value" : "Edit %@"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifier : %@"
+          }
         }
       }
     },
@@ -1661,6 +3217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Edit allergy"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifier l'allergie"
           }
         }
       }
@@ -1673,6 +3235,12 @@
             "state" : "translated",
             "value" : "Edit category"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifier la catégorie"
+          }
         }
       }
     },
@@ -1683,6 +3251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Edit date"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifier la date"
           }
         }
       }
@@ -1695,6 +3269,12 @@
             "state" : "translated",
             "value" : "Edit idea"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifier l'idée"
+          }
         }
       }
     },
@@ -1705,6 +3285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Edit order"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifier la commande"
           }
         }
       }
@@ -1717,6 +3303,12 @@
             "state" : "translated",
             "value" : "Edit person"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifier la personne"
+          }
         }
       }
     },
@@ -1727,6 +3319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Edit profile"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifier le profil"
           }
         }
       }
@@ -1739,6 +3337,12 @@
             "state" : "translated",
             "value" : "Edit Profile"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifier le profil"
+          }
         }
       }
     },
@@ -1749,6 +3353,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Edit size"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifier la taille"
           }
         }
       }
@@ -1761,14 +3371,65 @@
             "state" : "translated",
             "value" : "Enabled"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activé"
+          }
+        }
+      }
+    },
+    "Environmental" : {
+      "comment" : "Allergy category: environmental",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Environmental"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Environnement"
+          }
         }
       }
     },
     "Every month" : {
-      "comment" : "Recurrence: repeats monthly"
+      "comment" : "Recurrence: repeats monthly",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Every month"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chaque mois"
+          }
+        }
+      }
     },
     "Every week" : {
-      "comment" : "Recurrence: repeats weekly"
+      "comment" : "Recurrence: repeats weekly",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Every week"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chaque semaine"
+          }
+        }
+      }
     },
     "Every year" : {
       "comment" : "Recurrence: repeats yearly",
@@ -1777,6 +3438,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Every year"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chaque année"
           }
         }
       }
@@ -1789,6 +3456,12 @@
             "state" : "translated",
             "value" : "Export Data"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exporter les données"
+          }
         }
       }
     },
@@ -1799,6 +3472,80 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Export your data anytime. It's yours."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportez vos données à tout moment. Elles vous appartiennent."
+          }
+        }
+      }
+    },
+    "Extended Family" : {
+      "comment" : "Their people category: extended family",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Extended Family"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Famille élargie"
+          }
+        }
+      }
+    },
+    "Fashion & Style" : {
+      "comment" : "Like/dislike category: fashion",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fashion & Style"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mode et style"
+          }
+        }
+      }
+    },
+    "Fast Food" : {
+      "comment" : "Food order category: fast food",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fast Food"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fast-food"
+          }
+        }
+      }
+    },
+    "Food" : {
+      "comment" : "Allergy category: food",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Food"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fast-food"
           }
         }
       }
@@ -1811,11 +3558,82 @@
             "state" : "translated",
             "value" : "Food & drink orders"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commandes (nourriture et boissons)"
+          }
+        }
+      }
+    },
+    "Food & Drinks" : {
+      "comment" : "Like/dislike category: food and drinks",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Food & Drinks"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nourriture et boissons"
+          }
         }
       }
     },
     "Food orders" : {
-      "comment" : "Search: food orders section header"
+      "comment" : "Search: food orders section header",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Food orders"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commandes de nourriture"
+          }
+        }
+      }
+    },
+    "Friend" : {
+      "comment" : "Their people category: friend",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Friend"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ami(e)"
+          }
+        }
+      }
+    },
+    "Gemini" : {
+      "comment" : "Zodiac sign",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gemini"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gémeaux"
+          }
+        }
+      }
     },
     "GENDER" : {
       "comment" : "Profile editor: gender section header",
@@ -1824,6 +3642,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "GENDER"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GENRE"
           }
         }
       }
@@ -1836,16 +3660,45 @@
             "state" : "translated",
             "value" : "Get notified before this date"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recevoir une notification avant cette date"
+          }
+        }
+      }
+    },
+    "Gift categories" : {
+      "comment" : "Gift categories: section header",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gift categories"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catégories de cadeaux"
+          }
         }
       }
     },
     "Gift ideas" : {
-      "comment" : "Date detail: section header for linked gift ideas\nGift ideas: screen title\nSearch: gift ideas section header",
+      "comment" : "Date detail: section header for linked gift ideas\nGift ideas: screen title\nHome: gift ideas card title\nSearch: gift ideas section header",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gift ideas"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idées cadeaux"
           }
         }
       }
@@ -1858,16 +3711,45 @@
             "state" : "translated",
             "value" : "Give %@ a face"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajoutez une photo pour %@"
+          }
         }
       }
     },
     "Given" : {
-      "comment" : "Gift status filter: given stage",
+      "comment" : "Gift status filter: given stage\nGift status: given",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Given"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Offert"
+          }
+        }
+      }
+    },
+    "Gloves" : {
+      "comment" : "Clothing size category: gloves",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gloves"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gants"
           }
         }
       }
@@ -1880,6 +3762,29 @@
             "state" : "translated",
             "value" : "Got it"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "J'ai compris"
+          }
+        }
+      }
+    },
+    "Grandparent" : {
+      "comment" : "Their people category: grandparent",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grandparent"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grand-parent"
+          }
         }
       }
     },
@@ -1890,6 +3795,29 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Haptics"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vibrations"
+          }
+        }
+      }
+    },
+    "Hats" : {
+      "comment" : "Clothing size category: hats",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hats"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chapeaux"
           }
         }
       }
@@ -1914,6 +3842,24 @@
               }
             }
           }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Son anniversaire est dans %lld jour"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Son anniversaire est dans %lld jours"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -1924,6 +3870,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Her birthday is today!"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "C'est son anniversaire aujourd'hui !"
           }
         }
       }
@@ -1936,6 +3888,12 @@
             "state" : "translated",
             "value" : "Her birthday is tomorrow"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "C'est son anniversaire aujourd'hui !"
+          }
         }
       }
     },
@@ -1946,6 +3904,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Her favorites, quirks, the little things that make her who she is. Keep it all in one place."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ses préférences, ses petites habitudes, les détails qui font qu'elle est elle-même. Gardez tout au même endroit."
           }
         }
       }
@@ -1958,6 +3922,12 @@
             "state" : "translated",
             "value" : "Here's how we keep it that way."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voici comment nous nous y prenons."
+          }
         }
       }
     },
@@ -1969,6 +3939,12 @@
             "state" : "translated",
             "value" : "Hidden"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masquées"
+          }
         }
       }
     },
@@ -1979,6 +3955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hide %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masquer %@"
           }
         }
       }
@@ -2003,6 +3985,24 @@
               }
             }
           }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Son anniversaire est dans %lld jour"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Son anniversaire est dans %lld jours"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -2013,6 +4013,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "His birthday is today!"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "C'est son anniversaire aujourd'hui !"
           }
         }
       }
@@ -2025,6 +4031,12 @@
             "state" : "translated",
             "value" : "His birthday is tomorrow"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son anniversaire est demain"
+          }
         }
       }
     },
@@ -2035,6 +4047,29 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "His favorites, quirks, the little things that make him who he is. Keep it all in one place."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ses préférences, ses petites habitudes et tous ces petits détails qui font sa personnalité. Gardez tout au même endroit."
+          }
+        }
+      }
+    },
+    "Holiday" : {
+      "comment" : "Date category: holiday\nGift occasion: holiday",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Holiday"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vacances"
           }
         }
       }
@@ -2047,6 +4082,12 @@
             "state" : "translated",
             "value" : "iCloud access is restricted"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L'accès à iCloud est restreint"
+          }
         }
       }
     },
@@ -2057,6 +4098,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "iCloud is temporarily unavailable"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iCloud est temporairement indisponible"
           }
         }
       }
@@ -2069,16 +4116,45 @@
             "state" : "translated",
             "value" : "iCloud Sync"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synchronisation iCloud"
+          }
         }
       }
     },
     "Idea" : {
-      "comment" : "Gift status filter: idea stage",
+      "comment" : "Gift status filter: idea stage\nGift status: idea",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Idea"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idée"
+          }
+        }
+      }
+    },
+    "Ideas using this category will be moved to \"Just Because\"." : {
+      "comment" : "Gift categories: delete warning",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ideas using this category will be moved to \"Just Because\"."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les idées utilisant cette catégorie seront déplacées vers « Juste pour le plaisir »."
           }
         }
       }
@@ -2091,6 +4167,12 @@
             "state" : "translated",
             "value" : "Import Data"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importer des données"
+          }
         }
       }
     },
@@ -2101,6 +4183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Import Failed"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Échec de l'importation"
           }
         }
       }
@@ -2113,16 +4201,28 @@
             "state" : "translated",
             "value" : "Import Successful"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importation réussie"
+          }
         }
       }
     },
     "Important dates" : {
-      "comment" : "Important dates: screen title\nSearch: important dates section header",
+      "comment" : "Home: important dates card title\nImportant dates: screen title\nSearch: important dates section header",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Important dates"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dates importantes"
           }
         }
       }
@@ -2147,6 +4247,41 @@
               }
             }
           }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "dans %lld jour"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "dans %lld jours"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Just Because" : {
+      "comment" : "Gift occasion: just because",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Just Because"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Juste pour le plaisir"
+          }
         }
       }
     },
@@ -2157,6 +4292,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keep onboarding data, clear the rest"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conserver les données de bienvenue, effacer le reste"
           }
         }
       }
@@ -2169,6 +4310,46 @@
             "state" : "translated",
             "value" : "Keep track of their sizes for easy shopping"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notez leurs tailles pour faciliter vos futurs achats"
+          }
+        }
+      }
+    },
+    "Leo" : {
+      "comment" : "Zodiac sign",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lion"
+          }
+        }
+      }
+    },
+    "Libra" : {
+      "comment" : "Zodiac sign",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Libra"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Balance"
+          }
         }
       }
     },
@@ -2180,16 +4361,28 @@
             "state" : "translated",
             "value" : "Light"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clair"
+          }
         }
       }
     },
     "Likes" : {
-      "comment" : "About: likes card title\nSearch: likes section header",
+      "comment" : "About: likes card title\nLikes/dislikes: likes screen title\nSearch: likes section header",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Likes"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Préférences"
           }
         }
       }
@@ -2202,6 +4395,12 @@
             "state" : "translated",
             "value" : "Link"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lien"
+          }
         }
       }
     },
@@ -2212,6 +4411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Link (optional)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lien (facultatif)"
           }
         }
       }
@@ -2224,6 +4429,12 @@
             "state" : "translated",
             "value" : "Link a date"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Associer une date"
+          }
         }
       }
     },
@@ -2234,6 +4445,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Linked date"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date associée"
           }
         }
       }
@@ -2246,6 +4463,29 @@
             "state" : "translated",
             "value" : "Linked date (optional)"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date associée (facultative)"
+          }
+        }
+      }
+    },
+    "Lunch" : {
+      "comment" : "Food order category: lunch",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lunch"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Déjeuner"
+          }
         }
       }
     },
@@ -2253,6 +4493,12 @@
       "comment" : "Settings: footer tagline",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Made with love"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Made with love"
@@ -2268,6 +4514,12 @@
             "state" : "translated",
             "value" : "Man"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Homme"
+          }
         }
       }
     },
@@ -2278,6 +4530,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Manage"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gérer"
           }
         }
       }
@@ -2290,6 +4548,12 @@
             "state" : "translated",
             "value" : "Manage categories"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gérer les catégories"
+          }
         }
       }
     },
@@ -2300,6 +4564,80 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mark as %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marquer comme %@"
+          }
+        }
+      }
+    },
+    "Medication" : {
+      "comment" : "Allergy category: medication",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Medication"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Médicaments"
+          }
+        }
+      }
+    },
+    "Mom" : {
+      "comment" : "Their people category: mom",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mom"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maman"
+          }
+        }
+      }
+    },
+    "Movies & TV" : {
+      "comment" : "Like/dislike category: movies and TV",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Movies & TV"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Films et séries"
+          }
+        }
+      }
+    },
+    "Music" : {
+      "comment" : "Like/dislike category: music",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Music"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Musique"
           }
         }
       }
@@ -2312,11 +4650,31 @@
             "state" : "translated",
             "value" : "Name"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nom"
+          }
         }
       }
     },
     "Never" : {
-      "comment" : "Recurrence: does not repeat"
+      "comment" : "Recurrence: does not repeat",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Never"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jamais"
+          }
+        }
+      }
     },
     "New category" : {
       "comment" : "Category form: sheet title when creating",
@@ -2325,6 +4683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "New category"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nouvelle catégorie"
           }
         }
       }
@@ -2337,6 +4701,12 @@
             "state" : "translated",
             "value" : "Next"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suivant"
+          }
         }
       }
     },
@@ -2347,6 +4717,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No Account"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun compte"
           }
         }
       }
@@ -2359,6 +4735,12 @@
             "state" : "translated",
             "value" : "No accounts, no sign-ups, no strings."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pas de compte, pas d'inscription, sans engagement."
+          }
         }
       }
     },
@@ -2369,6 +4751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No allergies yet"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune allergie pour l'instant"
           }
         }
       }
@@ -2381,6 +4769,12 @@
             "state" : "translated",
             "value" : "No dates found"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune date trouvée"
+          }
         }
       }
     },
@@ -2391,6 +4785,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No dates yet"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune date pour l'instant"
           }
         }
       }
@@ -2403,6 +4803,12 @@
             "state" : "translated",
             "value" : "No dislikes yet"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune chose à éviter pour l'instant"
+          }
         }
       }
     },
@@ -2413,6 +4819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No gifts for current selection"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun cadeau pour la sélection actuelle"
           }
         }
       }
@@ -2425,6 +4837,12 @@
             "state" : "translated",
             "value" : "No ideas saved"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune idée enregistrée"
+          }
         }
       }
     },
@@ -2435,6 +4853,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No important dates to link"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune date importante à lier"
           }
         }
       }
@@ -2447,6 +4871,12 @@
             "state" : "translated",
             "value" : "No items found"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun élément trouvé"
+          }
         }
       }
     },
@@ -2457,6 +4887,46 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No likes yet"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune préférence pour le moment"
+          }
+        }
+      }
+    },
+    "No notes found" : {
+      "comment" : "Notes: no search results",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No notes found"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune note trouvée"
+          }
+        }
+      }
+    },
+    "No notes yet" : {
+      "comment" : "Notes: empty state title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No notes yet"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pas encore de notes"
           }
         }
       }
@@ -2469,6 +4939,12 @@
             "state" : "translated",
             "value" : "No orders match your search"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune commande ne correspond à votre recherche"
+          }
         }
       }
     },
@@ -2479,6 +4955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No orders saved"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune commande enregistrée"
           }
         }
       }
@@ -2491,11 +4973,65 @@
             "state" : "translated",
             "value" : "No people yet"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun proche pour le moment"
+          }
+        }
+      }
+    },
+    "No quirks found" : {
+      "comment" : "Quirks: no search results",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No quirks found"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune petite habitude trouvée"
+          }
+        }
+      }
+    },
+    "No quirks yet" : {
+      "comment" : "Quirks: empty state title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No quirks yet"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pas encore de petites habitudes"
+          }
         }
       }
     },
     "No results" : {
-      "comment" : "Search: empty results message"
+      "comment" : "Search: empty results message",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No results"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun résultat"
+          }
+        }
+      }
     },
     "No sizes yet" : {
       "comment" : "Sizes: empty state title",
@@ -2504,6 +5040,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No sizes yet"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune taille pour le moment"
           }
         }
       }
@@ -2516,6 +5058,12 @@
             "state" : "translated",
             "value" : "No tracking, no analytics, no peeking."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pas de suivi, pas d'analyse, pas de regard indiscret."
+          }
         }
       }
     },
@@ -2526,6 +5074,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Non-binary"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non-binaire"
           }
         }
       }
@@ -2538,6 +5092,12 @@
             "state" : "translated",
             "value" : "None"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune"
+          }
         }
       }
     },
@@ -2549,6 +5109,12 @@
             "state" : "translated",
             "value" : "None yet"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rien pour le moment"
+          }
         }
       }
     },
@@ -2556,6 +5122,12 @@
       "comment" : "Detail view: section label for a note",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Note"
@@ -2571,11 +5143,31 @@
             "state" : "translated",
             "value" : "Note (optional)"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note (facultative)"
+          }
         }
       }
     },
     "Notes" : {
-      "comment" : "Search: notes section header"
+      "comment" : "Home card: notes section title\nNotes: section title\nSearch: notes section header",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notes"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notes"
+          }
+        }
+      }
     },
     "Notes (optional)" : {
       "comment" : "Form field: optional notes label",
@@ -2584,6 +5176,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notes (optional)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notes (facultatives)"
           }
         }
       }
@@ -2596,6 +5194,12 @@
             "state" : "translated",
             "value" : "Nothing to ask yet"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rien à demander pour l'instant"
+          }
         }
       }
     },
@@ -2603,6 +5207,12 @@
       "comment" : "Settings: notifications toggle row title",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notifications"
@@ -2618,6 +5228,12 @@
             "state" : "translated",
             "value" : "NOTIFICATIONS"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NOTIFICATIONS"
+          }
         }
       }
     },
@@ -2629,6 +5245,12 @@
             "state" : "translated",
             "value" : "Oat milk, no onions, extra spicy..."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lait d'avoine, sans oignon, très épicé..."
+          }
         }
       }
     },
@@ -2636,6 +5258,12 @@
       "comment" : "Category picker: gift occasion section title",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Occasion"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Occasion"
@@ -2651,6 +5279,12 @@
             "state" : "translated",
             "value" : "Off"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Désactivé"
+          }
         }
       }
     },
@@ -2658,6 +5292,12 @@
       "comment" : "Generic OK button",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -2673,6 +5313,12 @@
             "state" : "translated",
             "value" : "On the day"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le jour même"
+          }
         }
       }
     },
@@ -2683,6 +5329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "One thing he loves"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Une chose qu'il aime"
           }
         }
       }
@@ -2695,6 +5347,12 @@
             "state" : "translated",
             "value" : "One thing she loves"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Une chose qu'elle aime"
+          }
         }
       }
     },
@@ -2705,6 +5363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "One thing they love"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Une chose qu'iel aime"
           }
         }
       }
@@ -2717,6 +5381,12 @@
             "state" : "translated",
             "value" : "One time"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Une seule fois"
+          }
         }
       }
     },
@@ -2727,6 +5397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Order"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commande"
           }
         }
       }
@@ -2739,6 +5415,63 @@
             "state" : "translated",
             "value" : "Orders"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commandes"
+          }
+        }
+      }
+    },
+    "Other" : {
+      "comment" : "Allergy category: other\nClothing size category: other\nDate category: other\nFood order category: other\nLike/dislike category: other\nTheir people category: other",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Other"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autre"
+          }
+        }
+      }
+    },
+    "Our Anniversary" : {
+      "comment" : "Onboarding: auto-created anniversary event title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Our Anniversary"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notre anniversaire"
+          }
+        }
+      }
+    },
+    "Outerwear" : {
+      "comment" : "Clothing size category: outerwear",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Outerwear"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vêtements d'extérieur"
+          }
         }
       }
     },
@@ -2749,6 +5482,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Passed"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passée"
           }
         }
       }
@@ -2761,6 +5500,12 @@
             "state" : "translated",
             "value" : "Past"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passées"
+          }
         }
       }
     },
@@ -2771,6 +5516,46 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "People"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Proches"
+          }
+        }
+      }
+    },
+    "People Traits" : {
+      "comment" : "Like/dislike category: people traits",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "People Traits"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traits de caractère"
+          }
+        }
+      }
+    },
+    "Pisces" : {
+      "comment" : "Zodiac sign",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pisces"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poissons"
           }
         }
       }
@@ -2783,6 +5568,12 @@
             "state" : "translated",
             "value" : "Place"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lieu"
+          }
         }
       }
     },
@@ -2793,6 +5584,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Price"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prix"
           }
         }
       }
@@ -2805,6 +5602,12 @@
             "state" : "translated",
             "value" : "Price (optional)"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prix (facultatif)"
+          }
         }
       }
     },
@@ -2816,22 +5619,48 @@
             "state" : "translated",
             "value" : "Profile Photo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photo de profil"
+          }
         }
       }
     },
     "Purchased" : {
-      "comment" : "Gift status filter: purchased stage",
+      "comment" : "Gift status filter: purchased stage\nGift status: purchased",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Purchased"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acheté"
+          }
         }
       }
     },
     "Quirks & Habits" : {
-      "comment" : "Search: quirks section header"
+      "comment" : "Home card: quirks section title\nQuirks: section title\nSearch: quirks section header",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quirks & Habits"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Petites habitudes"
+          }
+        }
+      }
     },
     "Recurring" : {
       "comment" : "Accessibility: indicates date repeats annually",
@@ -2840,6 +5669,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recurring"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Récurrent"
           }
         }
       }
@@ -2852,6 +5687,12 @@
             "state" : "translated",
             "value" : "Relationship"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Relation"
+          }
         }
       }
     },
@@ -2862,6 +5703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reminder"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rappel"
           }
         }
       }
@@ -2874,6 +5721,12 @@
             "state" : "translated",
             "value" : "Reminder time"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heure du rappel"
+          }
         }
       }
     },
@@ -2884,6 +5737,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reminders for important dates"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rappels pour les dates importantes"
           }
         }
       }
@@ -2896,6 +5755,12 @@
             "state" : "translated",
             "value" : "Remove"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer"
+          }
         }
       }
     },
@@ -2906,6 +5771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Remove birthday"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer l'anniversaire"
           }
         }
       }
@@ -2918,6 +5789,12 @@
             "state" : "translated",
             "value" : "Remove due date"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer l'échéance"
+          }
         }
       }
     },
@@ -2929,11 +5806,31 @@
             "state" : "translated",
             "value" : "Remove Photo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer la photo"
+          }
         }
       }
     },
     "Repeat" : {
-      "comment" : "Date form: toggle label for recurrence"
+      "comment" : "Date form: toggle label for recurrence",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Repeat"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Répéter"
+          }
+        }
+      }
     },
     "Repeats" : {
       "comment" : "Important date detail: label for the recurrence field",
@@ -2943,23 +5840,31 @@
             "state" : "translated",
             "value" : "Repeats"
           }
-        }
-      }
-    },
-    "Repeats every year" : {
-      "comment" : "Date form: subtitle explaining recurring toggle",
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Repeats every year"
+            "value" : "Récurrence"
           }
         }
       }
     },
     "Repeats on a schedule" : {
-      "comment" : "Date form: subtitle explaining repeat toggle"
+      "comment" : "Date form: subtitle explaining repeat toggle",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Repeats on a schedule"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Répétition planifiée"
+          }
+        }
+      }
     },
     "Reset" : {
       "comment" : "Settings: destructive button to reset post-onboarding data",
@@ -2968,6 +5873,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reset"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réinitialiser"
           }
         }
       }
@@ -2980,6 +5891,12 @@
             "state" : "translated",
             "value" : "Reset Post-Onboarding"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réinitialiser les données après configuration"
+          }
         }
       }
     },
@@ -2990,6 +5907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reset Post-Onboarding Data?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réinitialiser les données après configuration ?"
           }
         }
       }
@@ -3002,6 +5925,12 @@
             "state" : "translated",
             "value" : "Restaurant, cafe, bar..."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restaurant, café, bar..."
+          }
         }
       }
     },
@@ -3012,6 +5941,114 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Restricted"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accès restreint"
+          }
+        }
+      }
+    },
+    "Rings" : {
+      "comment" : "Clothing size category: rings",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rings"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bagues"
+          }
+        }
+      }
+    },
+    "S, M, L or 7 1/4..." : {
+      "comment" : "Size placeholder: hats",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "S, M, L or 7 1/4..."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "S, M, L ou 57, 58..."
+          }
+        }
+      }
+    },
+    "S, M, L, XL or 38, 40..." : {
+      "comment" : "Size placeholder: tops",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "S, M, L, XL or 38, 40..."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "S, M, L, XL ou 38, 40..."
+          }
+        }
+      }
+    },
+    "S, M, L, XL..." : {
+      "comment" : "Size placeholder: outerwear",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "S, M, L, XL..."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "S, M, L, XL..."
+          }
+        }
+      }
+    },
+    "S, M, L..." : {
+      "comment" : "Size placeholder: underwear",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "S, M, L..."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "S, M, L..."
+          }
+        }
+      }
+    },
+    "Sagittarius" : {
+      "comment" : "Zodiac sign",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sagittarius"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sagittaire"
           }
         }
       }
@@ -3024,6 +6061,12 @@
             "state" : "translated",
             "value" : "Save"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enregistrer"
+          }
         }
       }
     },
@@ -3034,6 +6077,29 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Save & finish"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enregistrer et terminer"
+          }
+        }
+      }
+    },
+    "Scorpio" : {
+      "comment" : "Zodiac sign",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scorpio"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scorpion"
           }
         }
       }
@@ -3046,6 +6112,12 @@
             "state" : "translated",
             "value" : "Search"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher"
+          }
         }
       }
     },
@@ -3056,6 +6128,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Search currencies"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher une devise"
           }
         }
       }
@@ -3068,11 +6146,31 @@
             "state" : "translated",
             "value" : "Search dates"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher des dates"
+          }
         }
       }
     },
     "Search everything" : {
-      "comment" : "Accessibility: open global search\nHome: global search placeholder"
+      "comment" : "Accessibility: open global search\nHome: global search placeholder",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search everything"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tout rechercher"
+          }
+        }
+      }
     },
     "Search ideas" : {
       "comment" : "Gift ideas: search bar placeholder",
@@ -3082,11 +6180,48 @@
             "state" : "translated",
             "value" : "Search ideas"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher des idées"
+          }
+        }
+      }
+    },
+    "Search notes" : {
+      "comment" : "Notes: search placeholder",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search notes"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher des notes"
+          }
         }
       }
     },
     "Search notes, gifts, dates, and more" : {
-      "comment" : "Search: prompt when search is empty"
+      "comment" : "Search: prompt when search is empty",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search notes, gifts, dates, and more"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notes, cadeaux, dates et plus..."
+          }
+        }
+      }
     },
     "Search orders" : {
       "comment" : "Food orders: search bar placeholder",
@@ -3095,6 +6230,46 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Search orders"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher des commandes"
+          }
+        }
+      }
+    },
+    "Search quirks" : {
+      "comment" : "Quirks: search placeholder",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search quirks"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher des petites habitudes"
+          }
+        }
+      }
+    },
+    "Seasons" : {
+      "comment" : "Like/dislike category: seasons",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seasons"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saisons"
           }
         }
       }
@@ -3107,6 +6282,12 @@
             "state" : "translated",
             "value" : "Send a notification in 3 seconds"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Envoyer une notification dans 3 secondes"
+          }
         }
       }
     },
@@ -3117,6 +6298,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Set"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Définir"
           }
         }
       }
@@ -3129,6 +6316,12 @@
             "state" : "translated",
             "value" : "Set due date"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Définir une date d'échéance"
+          }
         }
       }
     },
@@ -3139,6 +6332,29 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Settings"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réglages"
+          }
+        }
+      }
+    },
+    "Shoes" : {
+      "comment" : "Clothing size category: shoes",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shoes"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chaussures"
           }
         }
       }
@@ -3151,6 +6367,29 @@
             "state" : "translated",
             "value" : "Show %@"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afficher %@"
+          }
+        }
+      }
+    },
+    "Sibling" : {
+      "comment" : "Their people category: sibling",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sibling"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frère ou sœur"
+          }
         }
       }
     },
@@ -3161,6 +6400,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sign in to iCloud to sync"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connectez-vous à iCloud pour synchroniser"
           }
         }
       }
@@ -3173,6 +6418,29 @@
             "state" : "translated",
             "value" : "Size"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taille"
+          }
+        }
+      }
+    },
+    "Size..." : {
+      "comment" : "Size placeholder: other",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Size..."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taille..."
+          }
         }
       }
     },
@@ -3183,6 +6451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sizes"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tailles"
           }
         }
       }
@@ -3195,6 +6469,12 @@
             "state" : "translated",
             "value" : "Skip for now"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ignorer pour l'instant"
+          }
         }
       }
     },
@@ -3205,6 +6485,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "So we use the right words for them."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pour que nous puissions utiliser les termes appropriés."
           }
         }
       }
@@ -3217,6 +6503,12 @@
             "state" : "translated",
             "value" : "Something he can't resist. Anything at all."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Une chose à laquelle il ne peut pas résister. N'importe quoi."
+          }
         }
       }
     },
@@ -3227,6 +6519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Something she can't resist. Anything at all."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Une chose à laquelle elle ne peut pas résister. N'importe quoi."
           }
         }
       }
@@ -3239,6 +6537,12 @@
             "state" : "translated",
             "value" : "Something they can't resist. Anything at all."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Une chose à laquelle cette personne ne peut pas résister. N'importe quoi."
+          }
         }
       }
     },
@@ -3249,6 +6553,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Something they dislike..."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Une chose à éviter..."
           }
         }
       }
@@ -3261,6 +6571,12 @@
             "state" : "translated",
             "value" : "Something they love..."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Une préférence..."
+          }
         }
       }
     },
@@ -3271,6 +6587,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Something they love…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Une préférence…"
           }
         }
       }
@@ -3283,6 +6605,29 @@
             "state" : "translated",
             "value" : "Something they're allergic to..."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Une allergie..."
+          }
+        }
+      }
+    },
+    "Something you've noticed..." : {
+      "comment" : "Quirks: editor placeholder",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Something you've noticed..."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quelque chose que vous avez remarqué..."
+          }
         }
       }
     },
@@ -3293,6 +6638,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sort newest first"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trier par les plus récents"
           }
         }
       }
@@ -3305,11 +6656,48 @@
             "state" : "translated",
             "value" : "Sort oldest first"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trier par les plus anciens"
+          }
         }
       }
     },
     "Source Code" : {
-      "comment" : "Settings: GitHub source code link"
+      "comment" : "Settings: GitHub source code link",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Source Code"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Code source"
+          }
+        }
+      }
+    },
+    "Sports" : {
+      "comment" : "Like/dislike category: sports",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sports"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sports"
+          }
+        }
+      }
     },
     "Start date" : {
       "comment" : "Onboarding: label for the relationship start date picker",
@@ -3318,6 +6706,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Start date"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date de début"
           }
         }
       }
@@ -3330,6 +6724,12 @@
             "state" : "translated",
             "value" : "Start Over"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tout recommencer"
+          }
         }
       }
     },
@@ -3340,6 +6740,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Start Over?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tout recommencer ?"
           }
         }
       }
@@ -3352,6 +6758,12 @@
             "state" : "translated",
             "value" : "Status"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statut"
+          }
         }
       }
     },
@@ -3362,6 +6774,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Step %1$lld of %2$lld"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Étape %1$lld sur %2$lld"
           }
         }
       }
@@ -3374,6 +6792,12 @@
             "state" : "translated",
             "value" : "Symbol"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Symbole"
+          }
         }
       }
     },
@@ -3384,6 +6808,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "SYNC"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SYNCHRONISATION"
           }
         }
       }
@@ -3396,6 +6826,12 @@
             "state" : "translated",
             "value" : "Syncs across your devices"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synchronisation sur tous vos appareils"
+          }
         }
       }
     },
@@ -3406,6 +6842,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "System"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Système"
           }
         }
       }
@@ -3418,6 +6860,46 @@
             "state" : "translated",
             "value" : "Tactile feedback on interactions"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retour tactile lors des interactions"
+          }
+        }
+      }
+    },
+    "Takeout" : {
+      "comment" : "Food order category: takeout",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Takeout"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plats à emporter"
+          }
+        }
+      }
+    },
+    "Taurus" : {
+      "comment" : "Zodiac sign",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taurus"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taureau"
+          }
         }
       }
     },
@@ -3428,6 +6910,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tell us about %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parlez-nous de %@"
           }
         }
       }
@@ -3440,6 +6928,12 @@
             "state" : "translated",
             "value" : "Test Notification"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notification de test"
+          }
         }
       }
     },
@@ -3450,6 +6944,29 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The day you became a thing."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le jour où tout a commencé."
+          }
+        }
+      }
+    },
+    "The little things you notice. The way they laugh, what they always order, the habits only you'd pick up on." : {
+      "comment" : "Quirks: empty state description",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The little things you notice. The way they laugh, what they always order, the habits only you'd pick up on."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les petits détails que vous remarquez. Sa façon de rire, sa commande habituelle, ces petites habitudes que vous seul(e) remarquez."
           }
         }
       }
@@ -3462,6 +6979,12 @@
             "state" : "translated",
             "value" : "The people who matter to them. Family, friends, coworkers, anyone worth remembering by name."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les personnes qui comptent. Famille, amis, collègues... tous ceux dont le nom mérite d'être retenu."
+          }
         }
       }
     },
@@ -3472,6 +6995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The things they'd rather avoid. Knowing what they don't like matters just as much."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les choses à éviter. Savoir ce qu'ils n'aiment pas est tout aussi important."
           }
         }
       }
@@ -3484,6 +7013,12 @@
             "state" : "translated",
             "value" : "The things to watch out for. Food allergies, dietary needs, the details that keep them safe and comfortable."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les points de vigilance. Allergies, régimes spécifiques... ces détails qui assurent leur sécurité et leur confort."
+          }
         }
       }
     },
@@ -3494,6 +7029,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Their birthday is in %lld days"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son anniversaire est dans %lld jours"
           }
         }
       }
@@ -3506,6 +7047,12 @@
             "state" : "translated",
             "value" : "Their birthday is today!"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "C'est son anniversaire aujourd'hui !"
+          }
         }
       }
     },
@@ -3516,6 +7063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Their birthday is tomorrow"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son anniversaire est demain"
           }
         }
       }
@@ -3528,6 +7081,12 @@
             "state" : "translated",
             "value" : "Their favorites, quirks, the little things that make them who they are. Keep it all in one place."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ses préférences, ses petites habitudes, tous ces petits détails qui font sa personnalité. Regroupez tout ici."
+          }
         }
       }
     },
@@ -3538,6 +7097,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Their first name is perfect."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son prénom est parfait."
           }
         }
       }
@@ -3550,6 +7115,12 @@
             "state" : "translated",
             "value" : "Their go-to orders, all in one place. You're at the counter, they're not with you. Open the app, read the order, done."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ses commandes habituelles, centralisées. Vous êtes au comptoir, en solo ? Ouvrez l'appli, lisez la commande, et voilà."
+          }
         }
       }
     },
@@ -3560,6 +7131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Their name"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son nom"
           }
         }
       }
@@ -3572,6 +7149,12 @@
             "state" : "translated",
             "value" : "Their People"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ses proches"
+          }
         }
       }
     },
@@ -3582,6 +7165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Theme"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thème"
           }
         }
       }
@@ -3594,6 +7183,12 @@
             "state" : "translated",
             "value" : "This cannot be undone."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cette action est irréversible."
+          }
         }
       }
     },
@@ -3604,6 +7199,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "This will clear all data added after onboarding (birthday, etc.) so you can test the new-user experience."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cela effacera toutes les données ajoutées après l'inscription (anniversaire, etc.) pour vous permettre de tester l'expérience d'un nouvel utilisateur."
           }
         }
       }
@@ -3616,6 +7217,29 @@
             "state" : "translated",
             "value" : "This will delete all your data and cannot be undone."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cela supprimera toutes vos données. Cette action est irréversible."
+          }
+        }
+      }
+    },
+    "Thoughts, memories, things you want to remember about %@. Write them down so nothing slips away." : {
+      "comment" : "Notes: empty state description",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thoughts, memories, things you want to remember about %@. Write them down so nothing slips away."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pensées, souvenirs, choses que vous voulez retenir sur %@. Notez-les pour ne rien oublier."
+          }
         }
       }
     },
@@ -3626,6 +7250,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Title"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titre"
           }
         }
       }
@@ -3638,6 +7268,12 @@
             "state" : "translated",
             "value" : "Today"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aujourd'hui"
+          }
         }
       }
     },
@@ -3648,6 +7284,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Today is the day!"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "C'est le grand jour !"
           }
         }
       }
@@ -3660,6 +7302,12 @@
             "state" : "translated",
             "value" : "Together for %@."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ensemble depuis %@."
+          }
         }
       }
     },
@@ -3670,6 +7318,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "TOGETHER SINCE"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ENSEMBLE DEPUIS"
           }
         }
       }
@@ -3682,6 +7336,12 @@
             "state" : "translated",
             "value" : "Together since today."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ensemble depuis aujourd'hui."
+          }
         }
       }
     },
@@ -3692,6 +7352,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tomorrow"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Demain"
           }
         }
       }
@@ -3704,6 +7370,46 @@
             "state" : "translated",
             "value" : "Tomorrow!"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Demain !"
+          }
+        }
+      }
+    },
+    "Tops" : {
+      "comment" : "Clothing size category: tops",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tops"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hauts"
+          }
+        }
+      }
+    },
+    "Travel" : {
+      "comment" : "Like/dislike category: travel",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Travel"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voyage"
+          }
         }
       }
     },
@@ -3714,6 +7420,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Try a different search"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Essayez une autre recherche"
           }
         }
       }
@@ -3726,6 +7438,12 @@
             "state" : "translated",
             "value" : "Try a different search or filter."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Essayez une autre recherche ou un autre filtre."
+          }
         }
       }
     },
@@ -3736,6 +7454,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Try a different search term."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Essayez un autre terme de recherche."
           }
         }
       }
@@ -3748,6 +7472,29 @@
             "state" : "translated",
             "value" : "Unavailable"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indisponible"
+          }
+        }
+      }
+    },
+    "Underwear" : {
+      "comment" : "Clothing size category: underwear",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Underwear"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sous-vêtements"
+          }
         }
       }
     },
@@ -3758,6 +7505,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unknown"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inconnu"
           }
         }
       }
@@ -3770,6 +7523,12 @@
             "state" : "translated",
             "value" : "Unlink date"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dissocier la date"
+          }
         }
       }
     },
@@ -3780,6 +7539,46 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Upcoming"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À venir"
+          }
+        }
+      }
+    },
+    "US 6, EU 52..." : {
+      "comment" : "Size placeholder: rings",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "US 6, EU 52..."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "FR 52, US 6..."
+          }
+        }
+      }
+    },
+    "US 10, EU 43..." : {
+      "comment" : "Size placeholder: shoes",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "US 10, EU 43..."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "43 EU, 10 US..."
           }
         }
       }
@@ -3792,6 +7591,29 @@
             "state" : "translated",
             "value" : "Version"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version"
+          }
+        }
+      }
+    },
+    "Virgo" : {
+      "comment" : "Zodiac sign",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Virgo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vierge"
+          }
         }
       }
     },
@@ -3802,6 +7624,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "What makes them light up? Favorite foods, hobbies, little pleasures -- keep track of it all."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qu’est-ce qui lui fait plaisir ? Plats favoris, loisirs, petits bonheurs... notez toutes ses préférences ici."
           }
         }
       }
@@ -3814,6 +7642,29 @@
             "state" : "translated",
             "value" : "What they get..."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sa commande habituelle..."
+          }
+        }
+      }
+    },
+    "What's on your mind?" : {
+      "comment" : "Notes: editor placeholder",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What's on your mind?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À quoi pensez-vous ?"
+          }
         }
       }
     },
@@ -3824,6 +7675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "When did it all start?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le début de votre histoire ?"
           }
         }
       }
@@ -3836,6 +7693,12 @@
             "state" : "translated",
             "value" : "When inspiration strikes, save it here. You'll thank yourself when her birthday comes around."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notez vos idées dès qu’elles arrivent. Vous vous remercierez le jour de son anniversaire."
+          }
         }
       }
     },
@@ -3846,6 +7709,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "When inspiration strikes, save it here. You'll thank yourself when his birthday comes around."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notez vos idées dès qu’elles arrivent. Vous vous remercierez le jour de son anniversaire."
           }
         }
       }
@@ -3858,6 +7727,12 @@
             "state" : "translated",
             "value" : "When inspiration strikes, save it here. You'll thank yourself when their birthday comes around."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notez vos idées dès qu’elles arrivent. Vous vous remercierez le jour de son anniversaire."
+          }
         }
       }
     },
@@ -3868,6 +7743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "When you get notified"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heure des notifications"
           }
         }
       }
@@ -3880,6 +7761,12 @@
             "state" : "translated",
             "value" : "Who are you doing this for?"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qui voulez-vous ne jamais oublier ?"
+          }
         }
       }
     },
@@ -3890,6 +7777,46 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Woman"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Femme"
+          }
+        }
+      }
+    },
+    "Write a note" : {
+      "comment" : "Notes: empty state button",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Write a note"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Écrire une note"
+          }
+        }
+      }
+    },
+    "XS, S, M, L, XL..." : {
+      "comment" : "Size placeholder: gloves",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "XS, S, M, L, XL..."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "XS, S, M, L, XL..."
           }
         }
       }
@@ -3902,6 +7829,12 @@
             "state" : "translated",
             "value" : "years old"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ans"
+          }
         }
       }
     },
@@ -3912,6 +7845,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Your data has been restored."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vos données ont été restaurées."
           }
         }
       }
@@ -3924,6 +7863,12 @@
             "state" : "translated",
             "value" : "Your eyes only."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pour vos yeux uniquement."
+          }
         }
       }
     },
@@ -3934,6 +7879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Your private space to remember what they love, important dates, gift ideas… the little things that make your relationship, yours."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Votre espace privé pour garder en mémoire ses préférences, les dates importantes, des idées cadeaux… tous ces petits détails qui font la force de votre relation."
           }
         }
       }
@@ -3946,6 +7897,12 @@
             "state" : "translated",
             "value" : "Yours, about "
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yours, pour "
+          }
         }
       }
     },
@@ -3953,6 +7910,12 @@
       "comment" : "Onboarding: app name branding\nSettings: app name branding",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yours."
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yours."

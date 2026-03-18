@@ -22,7 +22,20 @@ enum ZodiacSign: String, CaseIterable {
     }
 
     var displayName: String {
-        rawValue.capitalized
+        switch self {
+        case .aries: String(localized: "Aries", comment: "Zodiac sign")
+        case .taurus: String(localized: "Taurus", comment: "Zodiac sign")
+        case .gemini: String(localized: "Gemini", comment: "Zodiac sign")
+        case .cancer: String(localized: "Cancer", comment: "Zodiac sign")
+        case .leo: String(localized: "Leo", comment: "Zodiac sign")
+        case .virgo: String(localized: "Virgo", comment: "Zodiac sign")
+        case .libra: String(localized: "Libra", comment: "Zodiac sign")
+        case .scorpio: String(localized: "Scorpio", comment: "Zodiac sign")
+        case .sagittarius: String(localized: "Sagittarius", comment: "Zodiac sign")
+        case .capricorn: String(localized: "Capricorn", comment: "Zodiac sign")
+        case .aquarius: String(localized: "Aquarius", comment: "Zodiac sign")
+        case .pisces: String(localized: "Pisces", comment: "Zodiac sign")
+        }
     }
 
     var label: String {

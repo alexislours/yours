@@ -10,7 +10,7 @@ struct ManageCategoriesConfig<C: ManageableCategory & PersistentModel> {
     let hiddenCategoriesKey: String?
 
     init(
-        headerTitle: String = "Categories",
+        headerTitle: String = String(localized: "Categories", comment: "Manage categories: default section header"),
         countLabel: @escaping (Int) -> String,
         deleteMessage: String,
         placeholderText: String,

@@ -39,11 +39,11 @@ enum AllergyPredefinedCategory: String, CaseIterable, Codable, PredefinedCategor
 
     nonisolated var displayName: String {
         switch self {
-        case .food: "Food"
-        case .medication: "Medication"
-        case .environmental: "Environmental"
-        case .dietary: "Dietary"
-        case .other: "Other"
+        case .food: String(localized: "Food", comment: "Allergy category: food")
+        case .medication: String(localized: "Medication", comment: "Allergy category: medication")
+        case .environmental: String(localized: "Environmental", comment: "Allergy category: environmental")
+        case .dietary: String(localized: "Dietary", comment: "Allergy category: dietary")
+        case .other: String(localized: "Other", comment: "Allergy category: other")
         }
     }
 

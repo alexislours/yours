@@ -8,26 +8,30 @@ struct NotesView: View {
     var body: some View {
         InlineEditableListView(
             person: person,
-            title: "Notes",
+            title: String(localized: "Notes", comment: "Notes: section title"),
             itemsKeyPath: \.notes,
             textKeyPath: \.body,
             sortKeyPath: \.createdAt,
-            searchPlaceholder: "Search notes",
-            noResultsLabel: "No notes found",
-            deleteConfirmationMessage: "Delete note?",
+            searchPlaceholder: String(localized: "Search notes", comment: "Notes: search placeholder"),
+            noResultsLabel: String(localized: "No notes found", comment: "Notes: no search results"),
+            deleteConfirmationMessage: String(localized: "Delete note?", comment: "Notes: delete confirmation"),
             emptyStateIcon: "note.text",
-            emptyStateTitle: "No notes yet",
-            emptyStateDescription: """
-            Thoughts, memories, things you want to remember about \
-            \(person.firstName). Write them down so nothing slips away.
-            """,
-            emptyStateButtonLabel: "Write a note",
-            editorPlaceholder: "What's on your mind?",
+            emptyStateTitle: String(localized: "No notes yet", comment: "Notes: empty state title"),
+            emptyStateDescription: String(
+                localized: """
+                Thoughts, memories, things you want to remember \
+                about \(person.firstName). Write them down so \
+                nothing slips away.
+                """,
+                comment: "Notes: empty state description"
+            ),
+            emptyStateButtonLabel: String(localized: "Write a note", comment: "Notes: empty state button"),
+            editorPlaceholder: String(localized: "What's on your mind?", comment: "Notes: editor placeholder"),
             editorLineLimit: 3 ... 20,
             editorMaxLength: nil,
             editorWarningThreshold: nil,
             sortable: true,
-            fabAccessibilityLabel: "Add note",
+            fabAccessibilityLabel: LocalizedStringResource("Add note", comment: "Notes: FAB accessibility label"),
             makeItem: { text, person in Note(body: text, person: person) },
             onSaveEdit: { note in note.updatedAt = .now },
             cardContent: { note in

@@ -49,15 +49,15 @@ enum FoodOrderPredefinedCategory: String, CaseIterable, Codable, PredefinedCateg
 
     nonisolated var displayName: String {
         switch self {
-        case .coffee: "Coffee"
-        case .breakfast: "Breakfast"
-        case .lunch: "Lunch"
-        case .dinner: "Dinner"
-        case .takeout: "Takeout"
-        case .fastfood: "Fast Food"
-        case .drinks: "Drinks"
-        case .dessert: "Dessert"
-        case .other: "Other"
+        case .coffee: String(localized: "Coffee", comment: "Food order category: coffee")
+        case .breakfast: String(localized: "Breakfast", comment: "Food order category: breakfast")
+        case .lunch: String(localized: "Lunch", comment: "Food order category: lunch")
+        case .dinner: String(localized: "Dinner", comment: "Food order category: dinner")
+        case .takeout: String(localized: "Takeout", comment: "Food order category: takeout")
+        case .fastfood: String(localized: "Fast Food", comment: "Food order category: fast food")
+        case .drinks: String(localized: "Drinks", comment: "Food order category: drinks")
+        case .dessert: String(localized: "Dessert", comment: "Food order category: dessert")
+        case .other: String(localized: "Other", comment: "Food order category: other")
         }
     }
 

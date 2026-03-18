@@ -49,7 +49,12 @@ enum GiftStatus: String, CaseIterable, Codable {
     case archived
 
     nonisolated var displayName: String {
-        rawValue.capitalized
+        switch self {
+        case .idea: String(localized: "Idea", comment: "Gift status: idea")
+        case .purchased: String(localized: "Purchased", comment: "Gift status: purchased")
+        case .given: String(localized: "Given", comment: "Gift status: given")
+        case .archived: String(localized: "Archived", comment: "Gift status: archived")
+        }
     }
 
     nonisolated var icon: String {

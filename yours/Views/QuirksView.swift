@@ -8,26 +8,26 @@ struct QuirksView: View {
     var body: some View {
         InlineEditableListView(
             person: person,
-            title: "Quirks & Habits",
+            title: String(localized: "Quirks & Habits", comment: "Quirks: section title"),
             itemsKeyPath: \.quirks,
             textKeyPath: \.text,
             sortKeyPath: \.createdAt,
-            searchPlaceholder: "Search quirks",
-            noResultsLabel: "No quirks found",
-            deleteConfirmationMessage: "Delete quirk?",
+            searchPlaceholder: String(localized: "Search quirks", comment: "Quirks: search placeholder"),
+            noResultsLabel: String(localized: "No quirks found", comment: "Quirks: no search results"),
+            deleteConfirmationMessage: String(localized: "Delete quirk?", comment: "Quirks: delete confirmation"),
             emptyStateIcon: "eyes",
-            emptyStateTitle: "No quirks yet",
-            emptyStateDescription: """
-            The little things you notice. The way they laugh, \
-            what they always order, the habits only you'd pick up on.
-            """,
-            emptyStateButtonLabel: "Add a quirk",
-            editorPlaceholder: "Something you've noticed...",
+            emptyStateTitle: String(localized: "No quirks yet", comment: "Quirks: empty state title"),
+            emptyStateDescription: String(
+                localized: "The little things you notice. The way they laugh, what they always order, the habits only you'd pick up on.",
+                comment: "Quirks: empty state description"
+            ),
+            emptyStateButtonLabel: String(localized: "Add a quirk", comment: "Quirks: empty state button"),
+            editorPlaceholder: String(localized: "Something you've noticed...", comment: "Quirks: editor placeholder"),
             editorLineLimit: 1 ... 6,
             editorMaxLength: 280,
             editorWarningThreshold: 30,
             sortable: false,
-            fabAccessibilityLabel: "Add quirk",
+            fabAccessibilityLabel: LocalizedStringResource("Add quirk", comment: "Quirks: FAB accessibility label"),
             makeItem: { text, person in Quirk(text: text, person: person) },
             onSaveEdit: nil,
             cardContent: { quirk in

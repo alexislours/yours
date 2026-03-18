@@ -54,19 +54,19 @@ enum LikeDislikePredefinedCategory: String, CaseIterable, Codable, PredefinedCat
 
     nonisolated var displayName: String {
         switch self {
-        case .foodDrinks: "Food & Drinks"
-        case .music: "Music"
-        case .moviesTv: "Movies & TV"
-        case .books: "Books"
-        case .activitiesHobbies: "Activities & Hobbies"
-        case .travel: "Travel"
-        case .fashionStyle: "Fashion & Style"
-        case .sports: "Sports"
-        case .animals: "Animals"
-        case .colors: "Colors"
-        case .seasons: "Seasons"
-        case .peopleTraits: "People Traits"
-        case .other: "Other"
+        case .foodDrinks: String(localized: "Food & Drinks", comment: "Like/dislike category: food and drinks")
+        case .music: String(localized: "Music", comment: "Like/dislike category: music")
+        case .moviesTv: String(localized: "Movies & TV", comment: "Like/dislike category: movies and TV")
+        case .books: String(localized: "Books", comment: "Like/dislike category: books")
+        case .activitiesHobbies: String(localized: "Activities & Hobbies", comment: "Like/dislike category: activities")
+        case .travel: String(localized: "Travel", comment: "Like/dislike category: travel")
+        case .fashionStyle: String(localized: "Fashion & Style", comment: "Like/dislike category: fashion")
+        case .sports: String(localized: "Sports", comment: "Like/dislike category: sports")
+        case .animals: String(localized: "Animals", comment: "Like/dislike category: animals")
+        case .colors: String(localized: "Colors", comment: "Like/dislike category: colors")
+        case .seasons: String(localized: "Seasons", comment: "Like/dislike category: seasons")
+        case .peopleTraits: String(localized: "People Traits", comment: "Like/dislike category: people traits")
+        case .other: String(localized: "Other", comment: "Like/dislike category: other")
         }
     }
 

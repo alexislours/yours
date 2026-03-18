@@ -9,6 +9,12 @@
             "state" : "translated",
             "value" : "Add an important date"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une date importante"
+          }
         }
       }
     },
@@ -19,6 +25,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Birthday"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anniversaire"
           }
         }
       }
@@ -31,16 +43,28 @@
             "state" : "translated",
             "value" : "Date Countdown"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compte à rebours"
+          }
         }
       }
     },
-"in 12 days" : {
+    "in 12 days" : {
       "comment" : "Widget placeholder: countdown",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "in 12 days"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dans 12 jours"
           }
         }
       }
@@ -53,6 +77,12 @@
             "state" : "translated",
             "value" : "month together"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mois ensemble"
+          }
         }
       }
     },
@@ -64,16 +94,28 @@
             "state" : "translated",
             "value" : "months together"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mois ensemble"
+          }
         }
       }
     },
-"Relationship Duration" : {
+    "Relationship Duration" : {
       "comment" : "Widget gallery: duration name",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Relationship Duration"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notre histoire"
           }
         }
       }
@@ -86,6 +128,12 @@
             "state" : "translated",
             "value" : "See how long you've been together."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Découvrez depuis combien de temps vous êtes ensemble."
+          }
         }
       }
     },
@@ -97,16 +145,28 @@
             "state" : "translated",
             "value" : "See upcoming important dates at a glance."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gardez un œil sur vos dates importantes à venir."
+          }
         }
       }
     },
-"Set up Yours to see your relationship here." : {
+    "Set up Yours to see your relationship here." : {
       "comment" : "Widget: onboarding required",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Set up Yours to see your relationship here."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configurez Yours pour voir votre histoire ici."
           }
         }
       }
@@ -119,6 +179,12 @@
             "state" : "translated",
             "value" : "Since %@"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Depuis le %@"
+          }
         }
       }
     },
@@ -129,6 +195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Today"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aujourd'hui"
           }
         }
       }
@@ -141,6 +213,12 @@
             "state" : "translated",
             "value" : "together"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ensemble"
+          }
         }
       }
     },
@@ -151,6 +229,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Together %lldm"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ensemble %lld m"
           }
         }
       }
@@ -163,6 +247,12 @@
             "state" : "translated",
             "value" : "Together %lldy"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ensemble %lld a"
+          }
         }
       }
     },
@@ -173,6 +263,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Together %1$lldy %2$lldm"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ensemble %1$lld a %2$lld m"
           }
         }
       }
@@ -185,6 +281,12 @@
             "state" : "translated",
             "value" : "Together for 2 years and 3 months."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ensemble depuis 2 ans et 3 mois."
+          }
         }
       }
     },
@@ -195,6 +297,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Upcoming"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À venir"
           }
         }
       }
@@ -207,6 +315,12 @@
             "state" : "translated",
             "value" : "year together"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "an ensemble"
+          }
         }
       }
     },
@@ -217,6 +331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "years together"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ans ensemble"
           }
         }
       }

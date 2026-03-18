@@ -6,7 +6,7 @@ extension HomeView {
     var importantDatesCard: some View {
         NavigationLink(destination: ImportantDatesView(person: person)) {
             SectionCard(
-                title: "Important dates",
+                title: String(localized: "Important dates", comment: "Home: important dates card title"),
                 icon: "calendar",
                 iconColor: Color.accentSecondary,
                 iconBackground: Color.accentSecondarySoft
@@ -29,7 +29,7 @@ extension HomeView {
         let giftIdeaCount = person.giftIdeaCount
         return NavigationLink(destination: GiftIdeasView(person: person)) {
             SectionCard(
-                title: "Gift ideas",
+                title: String(localized: "Gift ideas", comment: "Home: gift ideas card title"),
                 icon: "lightbulb",
                 iconColor: Color.accentRose,
                 iconBackground: Color.accentRoseSoft
@@ -95,7 +95,7 @@ extension HomeView {
     var quirksCard: some View {
         NavigationLink(destination: QuirksView(person: person)) {
             SectionCard(
-                title: "Quirks & Habits",
+                title: String(localized: "Quirks & Habits", comment: "Home card: quirks section title"),
                 icon: "eyes",
                 iconColor: Color(.caution),
                 iconBackground: Color(.cautionSoft),
@@ -117,7 +117,7 @@ extension HomeView {
     var notesCard: some View {
         NavigationLink(destination: NotesView(person: person)) {
             SectionCard(
-                title: "Notes",
+                title: String(localized: "Notes", comment: "Home card: notes section title"),
                 icon: "note.text",
                 iconColor: Color(.caution),
                 iconBackground: Color(.cautionSoft),

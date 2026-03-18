@@ -73,7 +73,12 @@ enum ImportantDatePredefinedCategory: String, CaseIterable, Codable, PredefinedC
     case other
 
     nonisolated var displayName: String {
-        rawValue.capitalized
+        switch self {
+        case .birthday: String(localized: "Birthday", comment: "Date category: birthday")
+        case .anniversary: String(localized: "Anniversary", comment: "Date category: anniversary")
+        case .holiday: String(localized: "Holiday", comment: "Date category: holiday")
+        case .other: String(localized: "Other", comment: "Date category: other")
+        }
     }
 
     nonisolated var icon: String {
