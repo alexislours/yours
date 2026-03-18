@@ -52,6 +52,40 @@
         }
       }
     },
+    "day together" : {
+      "comment" : "Widget medium: singular day",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "day together"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "jour ensemble"
+          }
+        }
+      }
+    },
+    "days together" : {
+      "comment" : "Widget medium: plural days",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "days together"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "jours ensemble"
+          }
+        }
+      }
+    },
     "in 12 days" : {
       "comment" : "Widget placeholder: countdown",
       "localizations" : {
@@ -65,40 +99,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "dans 12 jours"
-          }
-        }
-      }
-    },
-    "month together" : {
-      "comment" : "Widget medium: singular month",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "month together"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "mois ensemble"
-          }
-        }
-      }
-    },
-    "months together" : {
-      "comment" : "Widget medium: plural months",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "months together"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "mois ensemble"
           }
         }
       }
@@ -222,19 +222,36 @@
         }
       }
     },
-    "Together %lldm" : {
-      "comment" : "Widget Lock Screen: compact duration months only",
+    "Together %lldd" : {
+      "comment" : "Widget Lock Screen: compact duration days only",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Together %lldm"
+            "value" : "Together %lldd"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ensemble %lld m"
+            "value" : "Ensemble %lld j"
+          }
+        }
+      }
+    },
+    "Together %lldm %lldd" : {
+      "comment" : "Widget Lock Screen: compact duration with months and days",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Together %1$lldm %2$lldd"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ensemble %1$lld m %2$lld j"
           }
         }
       }
@@ -256,19 +273,36 @@
         }
       }
     },
-    "Together %lldy %lldm" : {
-      "comment" : "Widget Lock Screen: compact duration with years and months",
+    "Together %lldy %lldd" : {
+      "comment" : "Widget Lock Screen: compact duration with years and days",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Together %1$lldy %2$lldm"
+            "value" : "Together %1$lldy %2$lldd"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ensemble %1$lld a %2$lld m"
+            "value" : "Ensemble %1$lld a %2$lld d"
+          }
+        }
+      }
+    },
+    "Together %lldy %lldm %lldd" : {
+      "comment" : "Widget Lock Screen: compact duration with years, months, and days",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Together %1$lldy %2$lldm %3$lldd"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ensemble %1$lld a %2$lld m %3$lld j"
           }
         }
       }

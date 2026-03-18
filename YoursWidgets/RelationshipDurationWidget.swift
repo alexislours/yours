@@ -1,86 +1,6 @@
 import SwiftUI
 import WidgetKit
 
-// MARK: - Entry
-
-struct RelationshipDurationEntry: TimelineEntry {
-    let date: Date
-    let name: String
-    let relationshipStart: Date
-    let durationDescription: String
-    let formattedStartDate: String
-    let photoData: Data?
-    let upcomingDates: [WidgetDateData]
-    let hasCompletedOnboarding: Bool
-}
-
-// MARK: - Provider
-
-struct RelationshipDurationProvider: TimelineProvider {
-    func placeholder(in _: Context) -> RelationshipDurationEntry {
-        let start = Calendar.current.date(byAdding: .month, value: -27, to: .now) ?? .now
-        return RelationshipDurationEntry(
-            date: .now,
-            name: "Alex",
-            relationshipStart: start,
-            durationDescription: String(
-                localized: "Together for 2 years and 3 months.",
-                comment: "Widget placeholder: relationship duration"
-            ),
-            formattedStartDate: start.formatted(.dateTime.month(.wide).day().year()),
-            photoData: nil,
-            upcomingDates: [],
-            hasCompletedOnboarding: true
-        )
-    }
-
-    func getSnapshot(in _: Context, completion: @escaping (RelationshipDurationEntry) -> Void) {
-        completion(loadEntry())
-    }
-
-    func getTimeline(
-        in _: Context,
-        completion: @escaping (Timeline<RelationshipDurationEntry>) -> Void
-    ) {
-        let entry = loadEntry()
-        let midnight = Calendar.current.startOfDay(
-            for: Calendar.current.date(byAdding: .day, value: 1, to: .now) ?? .now
-        )
-        completion(Timeline(entries: [entry], policy: .after(midnight)))
-    }
-
-    private func loadEntry() -> RelationshipDurationEntry {
-        let decoder = JSONDecoder()
-        decoder.dateDecodingStrategy = .iso8601
-        guard let data = SharedDefaults.read(),
-              let payload = try? decoder.decode(WidgetPayload.self, from: data),
-              let person = payload.person
-        else {
-            return RelationshipDurationEntry(
-                date: .now,
-                name: "",
-                relationshipStart: .now,
-                durationDescription: "",
-                formattedStartDate: "",
-                photoData: nil,
-                upcomingDates: [],
-                hasCompletedOnboarding: false
-            )
-        }
-
-        return RelationshipDurationEntry(
-            date: .now,
-            name: person.name,
-            relationshipStart: person.relationshipStart,
-            durationDescription: person.durationDescription,
-            formattedStartDate: person.formattedStartDate,
-            photoData: person.photoData,
-            upcomingDates: payload.upcomingDates,
-            hasCompletedOnboarding: person.hasCompletedOnboarding
-        )
-    }
-}
-
 // MARK: - Widget
 
 struct RelationshipDurationWidget: Widget {
@@ -222,16 +142,22 @@ struct RelationshipDurationWidgetView: View {
         let start = calendar.startOfDay(for: entry.relationshipStart)
         let today = calendar.startOfDay(for: .now)
         let components = calendar.dateComponents(
-            [.year, .month],
+            [.year, .month, .day],
             from: start,
             to: today
         )
         let years = components.year ?? 0
         let months = components.month ?? 0
+        let days = components.day ?? 0
 
         if years >= 1, months > 0 {
             return (
-                "\(years)y \(months)m",
+                "\(years)y \(months)m \(days)d",
+                String(localized: "together", comment: "Widget medium: together label")
+            )
+        } else if years >= 1, days > 0 {
+            return (
+                "\(years)y \(days)d",
                 String(localized: "together", comment: "Widget medium: together label")
             )
         } else if years >= 1 {
@@ -241,12 +167,17 @@ struct RelationshipDurationWidgetView: View {
                     ? String(localized: "year together", comment: "Widget medium: singular year")
                     : String(localized: "years together", comment: "Widget medium: plural years")
             )
+        } else if months > 0 {
+            return (
+                "\(months)m \(days)d",
+                String(localized: "together", comment: "Widget medium: together label")
+            )
         } else {
             return (
-                "\(months)",
-                months == 1
-                    ? String(localized: "month together", comment: "Widget medium: singular month")
-                    : String(localized: "months together", comment: "Widget medium: plural months")
+                "\(days)",
+                days == 1
+                    ? String(localized: "day together", comment: "Widget medium: singular day")
+                    : String(localized: "days together", comment: "Widget medium: plural days")
             )
         }
     }
@@ -355,27 +286,38 @@ struct RelationshipDurationWidgetView: View {
         let start = calendar.startOfDay(for: entry.relationshipStart)
         let today = calendar.startOfDay(for: .now)
         let components = calendar.dateComponents(
-            [.year, .month],
+            [.year, .month, .day],
             from: start,
             to: today
         )
         let years = components.year ?? 0
         let months = components.month ?? 0
+        let days = components.day ?? 0
 
         if years > 0, months > 0 {
             return String(
-                localized: "Together \(years)y \(months)m",
-                comment: "Widget Lock Screen: compact duration with years and months"
+                localized: "Together \(years)y \(months)m \(days)d",
+                comment: "Widget Lock Screen: compact duration with years, months, and days"
+            )
+        } else if years > 0, days > 0 {
+            return String(
+                localized: "Together \(years)y \(days)d",
+                comment: "Widget Lock Screen: compact duration with years and days"
             )
         } else if years > 0 {
             return String(
                 localized: "Together \(years)y",
                 comment: "Widget Lock Screen: compact duration years only"
             )
+        } else if months > 0 {
+            return String(
+                localized: "Together \(months)m \(days)d",
+                comment: "Widget Lock Screen: compact duration with months and days"
+            )
         } else {
             return String(
-                localized: "Together \(months)m",
-                comment: "Widget Lock Screen: compact duration months only"
+                localized: "Together \(days)d",
+                comment: "Widget Lock Screen: compact duration days only"
             )
         }
     }
