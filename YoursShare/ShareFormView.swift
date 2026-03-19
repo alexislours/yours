@@ -26,6 +26,8 @@ struct ShareFormView: View {
     @State private var priceText = ""
     @State private var urlString = ""
     @State private var selectedOccasion: GiftOccasion = .justBecause
+    @ScaledMetric(relativeTo: .body) private var cancelIconSize: CGFloat = 17
+    @ScaledMetric(relativeTo: .body) private var saveIconSize: CGFloat = 16
     @FocusState private var focusedField: Field?
 
     private enum Field: Hashable {
@@ -70,7 +72,7 @@ struct ShareFormView: View {
         HStack {
             Button(action: onCancel) {
                 Image(systemName: "xmark")
-                    .font(.system(size: 17, weight: .medium))
+                    .font(.system(size: cancelIconSize, weight: .medium))
                     .foregroundStyle(ShareColor.textPrimary)
                     .frame(width: 44, height: 44)
             }
@@ -88,7 +90,7 @@ struct ShareFormView: View {
 
             Button(action: save) {
                 Image(systemName: "checkmark")
-                    .font(.system(size: 16, weight: .medium))
+                    .font(.system(size: saveIconSize, weight: .medium))
                     .foregroundStyle(canSave ? ShareColor.accentPrimary : ShareColor.textDisabled)
             }
             .disabled(!canSave)
