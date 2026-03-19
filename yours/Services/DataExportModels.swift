@@ -23,6 +23,7 @@ enum CalendarDateFormat {
 // MARK: - Export / Import Models
 
 struct PersonExportMetadata: Codable {
+    var version: Int = 1
     let name: String
     let relationshipStart: String
     let gender: String

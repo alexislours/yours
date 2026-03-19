@@ -32,7 +32,11 @@ struct YoursApp: App {
                     cloudKitDatabase: .none
                 )
                 do {
-                    return try (ModelContainer(for: schema, configurations: [inMemoryConfig]), nil)
+                    return try (ModelContainer(
+                        for: schema,
+                        migrationPlan: YoursMigrationPlan.self,
+                        configurations: [inMemoryConfig]
+                    ), nil)
                 } catch {
                     fatalError("Could not create in-memory ModelContainer for UI testing: \(error)")
                 }
@@ -46,7 +50,11 @@ struct YoursApp: App {
         )
 
         do {
-            return try (ModelContainer(for: schema, configurations: [cloudConfig]), nil)
+            return try (ModelContainer(
+                for: schema,
+                migrationPlan: YoursMigrationPlan.self,
+                configurations: [cloudConfig]
+            ), nil)
         } catch {
             let errorMessage: String
             let nsError = error as NSError
@@ -69,7 +77,11 @@ struct YoursApp: App {
                 cloudKitDatabase: .none
             )
             do {
-                return try (ModelContainer(for: schema, configurations: [localConfig]), errorMessage)
+                return try (ModelContainer(
+                    for: schema,
+                    migrationPlan: YoursMigrationPlan.self,
+                    configurations: [localConfig]
+                ), errorMessage)
             } catch {
                 fatalError("Could not create ModelContainer: \(error)")
             }
