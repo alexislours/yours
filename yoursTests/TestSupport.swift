@@ -13,6 +13,7 @@ enum TestSupport {
         AllergyItem.self, AllergyCategory.self,
         FoodOrderItem.self, FoodOrderCategory.self,
         TheirPeopleItem.self, TheirPeopleCategory.self,
+        Quirk.self,
     ])
 
     // MARK: - In-Memory Context
