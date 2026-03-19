@@ -217,6 +217,8 @@ struct HomeView: View {
                         .background(Color.bgSurface, in: Circle())
                         .overlay(Circle().strokeBorder(Color.borderSubtle, lineWidth: 1))
                 }
+                .frame(minWidth: 44, minHeight: 44)
+                .contentShape(Circle())
                 .accessibilityLabel(
                     String(localized: "Close search", comment: "Accessibility: close global search")
                 )
