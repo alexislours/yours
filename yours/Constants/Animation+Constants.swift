@@ -17,6 +17,11 @@ extension Animation {
         reduceMotion ? .default : .spring(response: 0.3, dampingFraction: 0.8)
     }
 
+    /// Gentle entrance for home screen content
+    static var homeEntrance: Animation {
+        reduceMotion ? .default : .easeOut(duration: 0.45)
+    }
+
     /// Wraps an inline animation so it falls back to `.default` when Reduce Motion is on.
     static func motionAware(_ animation: Animation) -> Animation {
         reduceMotion ? .default : animation

@@ -11,6 +11,7 @@ struct ProfileHeader: View {
     @Environment(\.modelContext) private var modelContext
     @State private var avatarImage: Image?
     @State private var avatarID = UUID()
+    @State private var avatarLoaded = false
     @State private var showingPicker = false
     @State private var showingOptions = false
     @State private var pendingImage: UIImage?
@@ -80,6 +81,8 @@ struct ProfileHeader: View {
             } label: {
                 AvatarView(name: person.firstName, size: 120, image: avatarImage)
                     .id(avatarID)
+                    .opacity(avatarLoaded ? 1 : 0)
+                    .scaleEffect(avatarLoaded ? 1 : 0.8)
                     .overlay(alignment: .bottomTrailing) {
                         if avatarImage == nil {
                             Image(systemName: "camera.fill")
@@ -163,9 +166,18 @@ struct ProfileHeader: View {
         .background(Color.bgSubtle)
         .clipShape(RoundedRectangle(cornerRadius: CornerRadius.xl))
         .task {
-            guard let data = person.photoData else { return }
+            guard let data = person.photoData else {
+                withOptionalAnimation(.spring(response: 0.5, dampingFraction: 0.7)) {
+                    avatarLoaded = true
+                }
+                return
+            }
             if let decoded = await decodeImage(from: data) {
                 avatarImage = decoded
+                try? await Task.sleep(for: .milliseconds(600))
+                withOptionalAnimation(.spring(response: 0.5, dampingFraction: 0.7)) {
+                    avatarLoaded = true
+                }
             }
         }
     }

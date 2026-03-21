@@ -8,6 +8,7 @@ struct HomeView: View {
 
     @State private var searchText = ""
     @State private var isSearchActive = false
+    @State private var hasAppeared = false
 
     enum HomeDestination: Hashable {
         case newNote
@@ -61,6 +62,7 @@ struct HomeView: View {
             }
             .padding(.horizontal, Spacing.xxxl)
             .padding(.bottom, Spacing.block)
+            .opacity(hasAppeared ? 1 : 0)
         }
         .background(Color.bgPrimary)
         .overlay {
@@ -115,6 +117,10 @@ struct HomeView: View {
         }
         .task {
             handleQuickAction(pendingQuickActionType)
+            try? await Task.sleep(for: .milliseconds(500))
+            withOptionalAnimation(.homeEntrance) {
+                hasAppeared = true
+            }
         }
         .onReceive(NotificationCenter.default.publisher(for: .quickActionTriggered)) { notification in
             handleQuickAction(notification.object as? String)
