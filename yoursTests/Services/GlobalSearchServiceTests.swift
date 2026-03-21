@@ -179,7 +179,17 @@ struct GlobalSearchServiceTests {
         #expect(Set(ids).count == ids.count)
     }
 
+    @Test func searchFindsDreams() {
+        let context = TestSupport.makeContext()
+        let person = TestSupport.seedPerson(in: context)
+        TestSupport.seedDream(in: context, text: "Publish a novel", person: person)
+
+        let groups = GlobalSearchService.search(query: "novel", person: person)
+        #expect(groups.count == 1)
+        #expect(groups[0].id == "dreams")
+    }
+
     @Test func sectionCountMatchesExpected() {
-        #expect(GlobalSearchService.sections.count == 11)
+        #expect(GlobalSearchService.sections.count == 12)
     }
 }

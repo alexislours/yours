@@ -21,7 +21,7 @@ struct YoursApp: App {
         AllergyItem.self, AllergyCategory.self,
         FoodOrderItem.self, FoodOrderCategory.self,
         TheirPeopleItem.self, TheirPeopleCategory.self,
-        Quirk.self, PetName.self,
+        Quirk.self, PetName.self, Dream.self,
     ])
 
     private static let containerResult: (container: ModelContainer, errorMessage: String?) = {

@@ -7,7 +7,7 @@ struct AboutView: View {
     @State private var showingBirthdayPicker = false
     @State private var avatarImage: Image?
     @State private var showCard = false
-    @State private var showLikesCards = false
+    @State var showLikesCards = false
     @State private var emptyStateAppeared = false
 
     var body: some View {
@@ -30,7 +30,7 @@ struct AboutView: View {
 
                             allergiesAndOrdersCards
 
-                            petNamesCard
+                            petNamesAndDreamsCards
                         }
                     }
                     .padding(.horizontal, Spacing.xxxl)
@@ -191,76 +191,6 @@ struct AboutView: View {
         .opacity(showLikesCards ? 1 : 0)
         .offset(y: showLikesCards ? 0 : 12)
         .animation(.motionAware(.easeOut(duration: 0.4).delay(0.2)), value: showLikesCards)
-    }
-
-    // MARK: - Allergies & Food Orders Cards
-
-    private var allergiesAndOrdersCards: some View {
-        let allergies = person.allergyItems ?? []
-        let foodOrders = person.foodOrderItems ?? []
-        return HStack(spacing: Spacing.md) {
-            NavigationLink(destination: AllergiesListView(person: person)) {
-                AboutCard(
-                    title: String(localized: "Allergies", comment: "About: allergies card title"),
-                    icon: "cross.case.fill",
-                    iconColor: CategoryPalette.color(for: "amber"),
-                    iconBackground: CategoryPalette.color(for: "amber").opacity(Opacity.iconBackground),
-                    previewText: allergies.first?.name,
-                    countText: allergies.isEmpty
-                        ? nil
-                        : String(
-                            localized: "\(allergies.count) allergies",
-                            comment: "About: allergies count label"
-                        )
-                )
-            }
-            .buttonStyle(.plain)
-
-            NavigationLink(destination: FoodOrdersView(person: person)) {
-                AboutCard(
-                    title: String(localized: "Orders", comment: "About: food orders card title"),
-                    icon: "menucard.fill",
-                    iconColor: CategoryPalette.color(for: "eucalyptus"),
-                    iconBackground: CategoryPalette.color(for: "eucalyptus").opacity(Opacity.iconBackground),
-                    previewText: foodOrders.first?.place,
-                    countText: foodOrders.isEmpty
-                        ? nil
-                        : String(
-                            localized: "\(foodOrders.count) orders",
-                            comment: "About: food orders count label"
-                        )
-                )
-            }
-            .buttonStyle(.plain)
-        }
-        .opacity(showLikesCards ? 1 : 0)
-        .offset(y: showLikesCards ? 0 : 12)
-        .animation(.motionAware(.easeOut(duration: 0.4).delay(0.3)), value: showLikesCards)
-    }
-
-    // MARK: - Pet Names Card
-
-    private var petNamesCard: some View {
-        let petNames = person.petNames ?? []
-        return NavigationLink(destination: PetNamesView(person: person)) {
-            AboutCard(
-                title: String(localized: "Pet Names", comment: "About: pet names card title"),
-                icon: "heart.text.clipboard",
-                iconColor: CategoryPalette.color(for: "rose"),
-                iconBackground: CategoryPalette.color(for: "rose").opacity(Opacity.iconBackground),
-                previewText: petNames.first?.text,
-                countText: petNames.isEmpty
-                    ? nil
-                    : String(
-                        localized: "\(petNames.count) pet names",
-                        comment: "About: pet names count label"
-                    )
-            )
-        }
-        .buttonStyle(.plain)
-        .opacity(showLikesCards ? 1 : 0)
-        .offset(y: showLikesCards ? 0 : 12)
-        .animation(.motionAware(.easeOut(duration: 0.4).delay(0.4)), value: showLikesCards)
     }
 
     // MARK: - Profile Card

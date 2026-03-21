@@ -32,6 +32,7 @@
             seedAskAboutItems(for: person, in: modelContext)
             seedQuirks(for: person, in: modelContext)
             seedPetNames(for: person, in: modelContext)
+            seedDreams(for: person, in: modelContext)
         }
 
         // MARK: - Profile Photo
@@ -312,6 +313,21 @@
             for name in names {
                 let petName = PetName(text: name, person: person)
                 context.insert(petName)
+            }
+        }
+
+        // MARK: - Dreams
+
+        private static func seedDreams(for person: Person, in context: ModelContext) {
+            let dreams = [
+                "Publish a novel",
+                "Visit every continent",
+                "Open a little bakery someday",
+            ]
+
+            for text in dreams {
+                let dream = Dream(text: text, person: person)
+                context.insert(dream)
             }
         }
     }

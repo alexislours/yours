@@ -30,6 +30,8 @@ final class Person {
     var theirPeopleItems: [TheirPeopleItem]?
     @Relationship(deleteRule: .cascade, inverse: \PetName.person)
     var petNames: [PetName]?
+    @Relationship(deleteRule: .cascade, inverse: \Dream.person)
+    var dreams: [Dream]?
 
     enum Gender: String, Codable {
         case female, male, other

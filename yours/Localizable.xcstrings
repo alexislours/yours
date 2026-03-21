@@ -332,6 +332,17 @@
         }
       }
     },
+    "%lld dreams" : {
+      "comment" : "About: dreams count label",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld rêves"
+          }
+        }
+      }
+    },
     "%lld ideas" : {
       "comment" : "Category badge: gift idea count\nHome: gift ideas badge count",
       "localizations" : {
@@ -934,6 +945,17 @@
         }
       }
     },
+    "A dream or aspiration..." : {
+      "comment" : "Dreams: editor placeholder",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un rêve ou une aspiration..."
+          }
+        }
+      }
+    },
     "A man" : {
       "comment" : "Onboarding gender: male option",
       "localizations" : {
@@ -1151,6 +1173,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajouter une chose à éviter"
+          }
+        }
+      }
+    },
+    "Add a dream" : {
+      "comment" : "Dreams: empty state button",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter un rêve"
           }
         }
       }
@@ -1419,6 +1452,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajouter une chose à éviter"
+          }
+        }
+      }
+    },
+    "Add dream" : {
+      "comment" : "Dreams: FAB accessibility label",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter un rêve"
           }
         }
       }
@@ -2836,6 +2880,17 @@
         }
       }
     },
+    "Delete dream?" : {
+      "comment" : "Dreams: delete confirmation",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer le rêve ?"
+          }
+        }
+      }
+    },
     "Delete Everything" : {
       "comment" : "Settings: destructive button that erases all user data",
       "localizations" : {
@@ -3172,6 +3227,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Terminé"
+          }
+        }
+      }
+    },
+    "Dreams" : {
+      "comment" : "About: dreams card title\nDreams: section title\nSearch: dreams section header",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rêves"
           }
         }
       }
@@ -4965,6 +5031,28 @@
         }
       }
     },
+    "No dreams found" : {
+      "comment" : "Dreams: no search results",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun rêve trouvé"
+          }
+        }
+      }
+    },
+    "No dreams yet" : {
+      "comment" : "Dreams: empty state title",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pas encore de rêves"
+          }
+        }
+      }
+    },
     "No gifts for current selection" : {
       "comment" : "Gift ideas: shown when filter returns no results",
       "localizations" : {
@@ -6376,6 +6464,17 @@
         }
       }
     },
+    "Search dreams" : {
+      "comment" : "Dreams: search placeholder",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher des rêves"
+          }
+        }
+      }
+    },
     "Search everything" : {
       "comment" : "Accessibility: open global search\nHome: global search placeholder",
       "localizations" : {
@@ -7171,6 +7270,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notification de test"
+          }
+        }
+      }
+    },
+    "The big goals, quiet hopes, and someday plans. Write them down so you can cheer them on." : {
+      "comment" : "Dreams: empty state description",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les grands objectifs, les espoirs secrets et les projets d’avenir. Notez-les pour mieux les soutenir au quotidien."
           }
         }
       }

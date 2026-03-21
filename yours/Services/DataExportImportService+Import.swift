@@ -65,6 +65,7 @@ extension DataExportImportService {
         importQuirks(from: metadata, into: person, modelContext: modelContext)
         importTheirPeople(from: metadata, into: person, modelContext: modelContext)
         importPetNames(from: metadata, into: person, modelContext: modelContext)
+        importDreams(from: metadata, into: person, modelContext: modelContext)
     }
 
     // MARK: - Import Helpers
@@ -275,6 +276,19 @@ extension DataExportImportService {
         }
         for data in importedPetNames {
             let item = PetName(text: data.text, person: person)
+            item.createdAt = data.createdAt
+            item.updatedAt = data.updatedAt
+            modelContext.insert(item)
+        }
+    }
+
+    private static func importDreams(from metadata: PersonExportMetadata, into person: Person, modelContext: ModelContext) {
+        guard let importedDreams = metadata.dreams else { return }
+        for item in person.dreams ?? [] {
+            modelContext.delete(item)
+        }
+        for data in importedDreams {
+            let item = Dream(text: data.text, person: person)
             item.createdAt = data.createdAt
             item.updatedAt = data.updatedAt
             modelContext.insert(item)

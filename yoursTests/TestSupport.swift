@@ -13,7 +13,7 @@ enum TestSupport {
         AllergyItem.self, AllergyCategory.self,
         FoodOrderItem.self, FoodOrderCategory.self,
         TheirPeopleItem.self, TheirPeopleCategory.self,
-        Quirk.self, PetName.self,
+        Quirk.self, PetName.self, Dream.self,
     ])
 
     // MARK: - In-Memory Context
@@ -237,6 +237,20 @@ enum TestSupport {
         context.insert(petName)
         try! context.save()
         return petName
+    }
+
+    // MARK: - Dream Seeding
+
+    @discardableResult
+    static func seedDream(
+        in context: ModelContext,
+        text: String = "Publish a novel",
+        person: Person
+    ) -> Dream {
+        let dream = Dream(text: text, person: person)
+        context.insert(dream)
+        try! context.save()
+        return dream
     }
 
     // MARK: - Composite Helpers

@@ -194,6 +194,23 @@ extension GlobalSearchService {
         return [quirksSection, likesSection, dislikesSection, theirPeopleSection, petNamesSection]
     }
 
+    private static func aspirationsSections() -> [SearchSectionConfig] {
+        let dreamsSection = SearchSectionConfig(
+            id: "dreams",
+            sectionTitle: String(localized: "Dreams", comment: "Search: dreams section header"),
+            sectionIcon: "sparkles",
+            sectionIconColor: CategoryPalette.color(for: "lavender"),
+            sectionIconBackground: CategoryPalette.color(for: "lavender").opacity(Opacity.iconBackground),
+            search: { person, query in
+                (person.dreams ?? [])
+                    .filter { $0.text.localizedCaseInsensitiveContains(query) }
+                    .map { SearchResult(id: "dream-\($0.id)", title: $0.text, subtitle: nil, destination: .dreams) }
+            }
+        )
+
+        return [dreamsSection]
+    }
+
     private static func lifestyleSections() -> [SearchSectionConfig] {
         let allergiesSection = SearchSectionConfig(
             id: "allergies",
@@ -247,5 +264,5 @@ extension GlobalSearchService {
         return [allergiesSection, foodOrdersSection, sizesSection]
     }
 
-    static let sections: [SearchSectionConfig] = notesSections() + peopleSections() + lifestyleSections()
+    static let sections: [SearchSectionConfig] = notesSections() + peopleSections() + aspirationsSections() + lifestyleSections()
 }
