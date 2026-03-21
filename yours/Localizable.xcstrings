@@ -566,6 +566,23 @@
         }
       }
     },
+    "%lld pet names" : {
+      "comment" : "About: pet names count label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld pet names"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld surnoms"
+          }
+        }
+      }
+    },
     "%lld sizes" : {
       "comment" : "About: sizes count label\nCategory badge: clothing size count",
       "localizations" : {
@@ -934,6 +951,23 @@
         }
       }
     },
+    "A name only you use..." : {
+      "comment" : "Pet names: editor placeholder",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A name only you use..."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un surnom que vous seul(e) utilisez..."
+          }
+        }
+      }
+    },
     "A place for everything\nthat makes them, them." : {
       "comment" : "Onboarding intro: tagline on welcome screen",
       "localizations" : {
@@ -1185,6 +1219,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajouter une personne"
+          }
+        }
+      }
+    },
+    "Add a pet name" : {
+      "comment" : "Pet names: empty state button",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add a pet name"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter un surnom"
           }
         }
       }
@@ -1449,6 +1500,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajouter une personne"
+          }
+        }
+      }
+    },
+    "Add pet name" : {
+      "comment" : "Pet names: FAB accessibility label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add pet name"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter un surnom"
           }
         }
       }
@@ -2883,6 +2951,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Supprimer la personne ?"
+          }
+        }
+      }
+    },
+    "Delete pet name?" : {
+      "comment" : "Pet names: delete confirmation",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete pet name?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer le surnom ?"
           }
         }
       }
@@ -5050,6 +5135,40 @@
         }
       }
     },
+    "No pet names found" : {
+      "comment" : "Pet names: no search results",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No pet names found"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun surnom trouvé"
+          }
+        }
+      }
+    },
+    "No pet names yet" : {
+      "comment" : "Pet names: empty state title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No pet names yet"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pas encore de surnoms"
+          }
+        }
+      }
+    },
     "No quirks found" : {
       "comment" : "Quirks: no search results",
       "localizations" : {
@@ -5624,6 +5743,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Traits de caractère"
+          }
+        }
+      }
+    },
+    "Pet Names" : {
+      "comment" : "About: pet names card title\nPet names: section title\nSearch: pet names section header",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pet Names"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Surnoms"
           }
         }
       }
@@ -6321,6 +6457,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rechercher des commandes"
+          }
+        }
+      }
+    },
+    "Search pet names" : {
+      "comment" : "Pet names: search placeholder",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search pet names"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher les surnoms"
           }
         }
       }
@@ -7069,6 +7222,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Les personnes qui comptent. Famille, amis, collègues... tous ceux dont le nom mérite d'être retenu."
+          }
+        }
+      }
+    },
+    "The silly, sweet, and secret names only you two use. Save them here so you never forget." : {
+      "comment" : "Pet names: empty state description",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The silly, sweet, and secret names only you two use. Save them here so you never forget."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les noms drôles, doux et secrets que vous seuls utilisez. Enregistrez les surnoms ici pour ne jamais les oublier."
           }
         }
       }

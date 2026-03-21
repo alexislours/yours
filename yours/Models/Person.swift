@@ -28,6 +28,8 @@ final class Person {
     var quirks: [Quirk]?
     @Relationship(deleteRule: .cascade, inverse: \TheirPeopleItem.person)
     var theirPeopleItems: [TheirPeopleItem]?
+    @Relationship(deleteRule: .cascade, inverse: \PetName.person)
+    var petNames: [PetName]?
 
     enum Gender: String, Codable {
         case female, male, other
@@ -176,6 +178,18 @@ extension Person {
 
     var quirkCount: Int {
         (quirks ?? []).count
+    }
+
+    var sortedPetNames: [PetName] {
+        (petNames ?? []).sorted { $0.createdAt > $1.createdAt }
+    }
+
+    var latestPetName: PetName? {
+        (petNames ?? []).max { $0.createdAt < $1.createdAt }
+    }
+
+    var petNameCount: Int {
+        (petNames ?? []).count
     }
 
     var daysUntilBirthday: Int? {

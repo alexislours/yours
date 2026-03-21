@@ -42,7 +42,8 @@ struct GiftIdeaTests {
             let person = TestSupport.seedPerson(in: ctx)
             let gift = TestSupport.seedGiftIdea(in: ctx, title: "Gift", price: 9999.99, person: person)
             let formatted = try #require(gift.formattedPrice)
-            #expect(formatted.contains("9,999") || formatted.contains("9999"))
+            let digitsOnly = formatted.filter(\.isNumber)
+            #expect(digitsOnly.contains("999999"))
         }
     }
 

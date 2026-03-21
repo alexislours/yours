@@ -45,6 +45,7 @@ struct PersonExportMetadata: Codable {
     var quirks: [QuirkExportData]?
     var theirPeopleItems: [TheirPeopleItemExportData]?
     var theirPeopleCategories: [CategoryExportData]?
+    var petNames: [PetNameExportData]?
 }
 
 struct NoteExportData: Codable {
@@ -152,6 +153,13 @@ struct TheirPeopleItemExportData: Codable {
     let note: String?
     let predefinedCategory: String
     let customCategoryId: String?
+    let createdAt: Date
+    let updatedAt: Date
+}
+
+struct PetNameExportData: Codable {
+    let id: String
+    let text: String
     let createdAt: Date
     let updatedAt: Date
 }

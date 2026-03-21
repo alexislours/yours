@@ -23,6 +23,7 @@ struct CascadeDeleteTests {
         TestSupport.seedFoodOrder(in: ctx, person: person)
         TestSupport.seedQuirk(in: ctx, person: person)
         TestSupport.seedTheirPeople(in: ctx, person: person)
+        TestSupport.seedPetName(in: ctx, person: person)
 
         ctx.delete(person)
         try ctx.save()
@@ -37,6 +38,7 @@ struct CascadeDeleteTests {
         #expect(try ctx.fetch(FetchDescriptor<FoodOrderItem>()).isEmpty)
         #expect(try ctx.fetch(FetchDescriptor<Quirk>()).isEmpty)
         #expect(try ctx.fetch(FetchDescriptor<TheirPeopleItem>()).isEmpty)
+        #expect(try ctx.fetch(FetchDescriptor<PetName>()).isEmpty)
     }
 
     @Test("Deleting a custom DateCategory does not delete items using it")
@@ -285,6 +287,17 @@ struct SwiftDataPersistenceTests {
         #expect(fetched.first?.predefinedCategory == .mom)
     }
 
+    @Test("PetName saves and fetches correctly")
+    func petNamePersistence() throws {
+        let ctx = TestSupport.makeContext()
+        let person = TestSupport.seedPerson(in: ctx)
+        TestSupport.seedPetName(in: ctx, text: "Sunshine", person: person)
+
+        let fetched = try ctx.fetch(FetchDescriptor<PetName>())
+        #expect(fetched.count == 1)
+        #expect(fetched.first?.text == "Sunshine")
+    }
+
     // MARK: - Relationships
 
     @Test("Note relationship is established on both sides")
@@ -317,6 +330,16 @@ struct SwiftDataPersistenceTests {
         #expect(person.giftIdeas?.contains(where: { $0 === gift }) == true)
     }
 
+    @Test("PetName relationship is established on both sides")
+    func petNameRelationship() throws {
+        let ctx = TestSupport.makeContext()
+        let person = TestSupport.seedPerson(in: ctx)
+        let petName = TestSupport.seedPetName(in: ctx, person: person)
+
+        #expect(petName.person === person)
+        #expect(person.petNames?.contains(where: { $0 === petName }) == true)
+    }
+
     @Test("All relationship arrays are populated after save")
     func allRelationshipsPopulated() throws {
         let ctx = TestSupport.makeContext()
@@ -332,6 +355,7 @@ struct SwiftDataPersistenceTests {
         TestSupport.seedFoodOrder(in: ctx, person: person)
         TestSupport.seedQuirk(in: ctx, person: person)
         TestSupport.seedTheirPeople(in: ctx, person: person)
+        TestSupport.seedPetName(in: ctx, person: person)
 
         #expect(person.notes?.count == 1)
         #expect(person.importantDates?.count == 1)
@@ -343,6 +367,7 @@ struct SwiftDataPersistenceTests {
         #expect(person.foodOrderItems?.count == 1)
         #expect(person.quirks?.count == 1)
         #expect(person.theirPeopleItems?.count == 1)
+        #expect(person.petNames?.count == 1)
     }
 
     // MARK: - External Storage

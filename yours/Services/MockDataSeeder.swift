@@ -31,6 +31,7 @@
             seedNotes(for: person, in: modelContext)
             seedAskAboutItems(for: person, in: modelContext)
             seedQuirks(for: person, in: modelContext)
+            seedPetNames(for: person, in: modelContext)
         }
 
         // MARK: - Profile Photo
@@ -296,6 +297,21 @@
             for text in quirks {
                 let quirk = Quirk(text: text, person: person)
                 context.insert(quirk)
+            }
+        }
+
+        // MARK: - Pet Names
+
+        private static func seedPetNames(for person: Person, in context: ModelContext) {
+            let names = [
+                "Sunshine",
+                "Love bug",
+                "Em",
+            ]
+
+            for name in names {
+                let petName = PetName(text: name, person: person)
+                context.insert(petName)
             }
         }
     }

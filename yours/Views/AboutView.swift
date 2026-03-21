@@ -29,6 +29,8 @@ struct AboutView: View {
                             sizesAndPeopleCards
 
                             allergiesAndOrdersCards
+
+                            petNamesCard
                         }
                     }
                     .padding(.horizontal, Spacing.xxxl)
@@ -234,6 +236,31 @@ struct AboutView: View {
         .opacity(showLikesCards ? 1 : 0)
         .offset(y: showLikesCards ? 0 : 12)
         .animation(.motionAware(.easeOut(duration: 0.4).delay(0.3)), value: showLikesCards)
+    }
+
+    // MARK: - Pet Names Card
+
+    private var petNamesCard: some View {
+        let petNames = person.petNames ?? []
+        return NavigationLink(destination: PetNamesView(person: person)) {
+            AboutCard(
+                title: String(localized: "Pet Names", comment: "About: pet names card title"),
+                icon: "heart.text.clipboard",
+                iconColor: CategoryPalette.color(for: "rose"),
+                iconBackground: CategoryPalette.color(for: "rose").opacity(Opacity.iconBackground),
+                previewText: petNames.first?.text,
+                countText: petNames.isEmpty
+                    ? nil
+                    : String(
+                        localized: "\(petNames.count) pet names",
+                        comment: "About: pet names count label"
+                    )
+            )
+        }
+        .buttonStyle(.plain)
+        .opacity(showLikesCards ? 1 : 0)
+        .offset(y: showLikesCards ? 0 : 12)
+        .animation(.motionAware(.easeOut(duration: 0.4).delay(0.4)), value: showLikesCards)
     }
 
     // MARK: - Profile Card

@@ -64,6 +64,7 @@ extension DataExportImportService {
         importFoodOrders(from: metadata, into: person, modelContext: modelContext)
         importQuirks(from: metadata, into: person, modelContext: modelContext)
         importTheirPeople(from: metadata, into: person, modelContext: modelContext)
+        importPetNames(from: metadata, into: person, modelContext: modelContext)
     }
 
     // MARK: - Import Helpers
@@ -265,5 +266,18 @@ extension DataExportImportService {
                 return item
             }
         )
+    }
+
+    private static func importPetNames(from metadata: PersonExportMetadata, into person: Person, modelContext: ModelContext) {
+        guard let importedPetNames = metadata.petNames else { return }
+        for item in person.petNames ?? [] {
+            modelContext.delete(item)
+        }
+        for data in importedPetNames {
+            let item = PetName(text: data.text, person: person)
+            item.createdAt = data.createdAt
+            item.updatedAt = data.updatedAt
+            modelContext.insert(item)
+        }
     }
 }

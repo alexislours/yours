@@ -22,5 +22,6 @@ extension Tag {
     @Tag static var clothingSizes: Self
     @Tag static var allergies: Self
     @Tag static var dataIntegrity: Self
+    @Tag static var petNames: Self
     @Tag static var onboarding: Self
 }

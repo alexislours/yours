@@ -26,6 +26,7 @@ struct HomeView: View {
         case foodOrders
         case sizes
         case theirPeople
+        case petNames
         case giftIdeaDetail(GiftIdea)
         case importantDateDetail(ImportantDate)
     }
@@ -101,6 +102,8 @@ struct HomeView: View {
                 SizesGridView(person: person)
             case .theirPeople:
                 TheirPeopleListView(person: person)
+            case .petNames:
+                PetNamesView(person: person)
             case let .giftIdeaDetail(idea):
                 GiftIdeaDetailView(idea: idea)
             case let .importantDateDetail(date):

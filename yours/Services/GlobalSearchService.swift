@@ -178,7 +178,20 @@ extension GlobalSearchService {
             }
         )
 
-        return [quirksSection, likesSection, dislikesSection, theirPeopleSection]
+        let petNamesSection = SearchSectionConfig(
+            id: "petNames",
+            sectionTitle: String(localized: "Pet Names", comment: "Search: pet names section header"),
+            sectionIcon: "heart.text.clipboard",
+            sectionIconColor: CategoryPalette.color(for: "rose"),
+            sectionIconBackground: CategoryPalette.color(for: "rose").opacity(Opacity.iconBackground),
+            search: { person, query in
+                (person.petNames ?? [])
+                    .filter { $0.text.localizedCaseInsensitiveContains(query) }
+                    .map { SearchResult(id: "petname-\($0.id)", title: $0.text, subtitle: nil, destination: .petNames) }
+            }
+        )
+
+        return [quirksSection, likesSection, dislikesSection, theirPeopleSection, petNamesSection]
     }
 
     private static func lifestyleSections() -> [SearchSectionConfig] {

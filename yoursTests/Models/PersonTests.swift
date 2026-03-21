@@ -408,6 +408,7 @@ struct PersonTests {
 
             #expect(person.quirkCount == 2)
         }
+
     }
 
     // MARK: - Latest / Nearest
@@ -514,6 +515,7 @@ struct PersonTests {
             let person = TestSupport.seedPerson(in: ctx)
             #expect(person.latestQuirk == nil)
         }
+
     }
 
     // MARK: - Gender

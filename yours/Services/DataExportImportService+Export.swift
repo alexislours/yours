@@ -14,6 +14,7 @@ extension DataExportImportService {
         let foodOrders = exportFoodOrders(person)
         let quirks = exportQuirks(person)
         let theirPeople = exportTheirPeople(person)
+        let petNames = exportPetNames(person)
 
         let metadata = PersonExportMetadata(
             name: person.name,
@@ -36,7 +37,8 @@ extension DataExportImportService {
             foodOrderCategories: foodOrders.categories.isEmpty ? nil : foodOrders.categories,
             quirks: quirks.isEmpty ? nil : quirks,
             theirPeopleItems: theirPeople.items.isEmpty ? nil : theirPeople.items,
-            theirPeopleCategories: theirPeople.categories.isEmpty ? nil : theirPeople.categories
+            theirPeopleCategories: theirPeople.categories.isEmpty ? nil : theirPeople.categories,
+            petNames: petNames.isEmpty ? nil : petNames
         )
 
         let encoder = JSONEncoder()
@@ -211,5 +213,11 @@ extension DataExportImportService {
             }
         )
         return (result.items, result.categories)
+    }
+
+    private static func exportPetNames(_ person: Person) -> [PetNameExportData] {
+        (person.petNames ?? []).map {
+            PetNameExportData(id: UUID().uuidString, text: $0.text, createdAt: $0.createdAt, updatedAt: $0.updatedAt)
+        }
     }
 }
