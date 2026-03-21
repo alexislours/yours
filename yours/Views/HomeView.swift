@@ -116,7 +116,11 @@ struct HomeView: View {
             }
         }
         .task {
-            handleQuickAction(pendingQuickActionType)
+            if deepLink != nil {
+                handleDeepLink()
+            } else {
+                handleQuickAction(pendingQuickActionType)
+            }
             try? await Task.sleep(for: .milliseconds(500))
             withOptionalAnimation(.homeEntrance) {
                 hasAppeared = true
@@ -126,9 +130,6 @@ struct HomeView: View {
             handleQuickAction(notification.object as? String)
         }
         .onChange(of: deepLink) {
-            handleDeepLink()
-        }
-        .onAppear {
             handleDeepLink()
         }
     }
