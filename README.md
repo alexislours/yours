@@ -17,6 +17,12 @@ A native iOS app to remember everything about your partner. Sizes, allergies, fo
   <img src="docs/Screenshot-en-US-07-DarkHome.jpeg" width="150" alt="Dark Mode">
 </p>
 
+<p align="center">
+  <a href="https://apps.apple.com/app/id6760481220">
+    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" height="50">
+  </a>
+</p>
+
 ## Features
 
 - Track clothing sizes, allergies, food orders, likes and dislikes
