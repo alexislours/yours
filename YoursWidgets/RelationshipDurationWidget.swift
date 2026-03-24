@@ -195,7 +195,7 @@ struct RelationshipDurationWidgetView: View {
                         .lineLimit(1)
                         .widgetAccentable()
 
-                    Text(entry.durationDescription)
+                    Text(fullDuration)
                         .font(.custom("Inter", size: 13, relativeTo: .footnote))
                         .foregroundStyle(Color(.textSecondary))
                         .lineLimit(2)
@@ -279,6 +279,31 @@ struct RelationshipDurationWidgetView: View {
             WidgetAvatarView(name: entry.name, size: size)
                 .widgetAccentable()
         }
+    }
+
+    private var fullDuration: String {
+        let calendar = Calendar.current
+        let start = calendar.startOfDay(for: entry.relationshipStart)
+        let today = calendar.startOfDay(for: .now)
+        let components = calendar.dateComponents([.year, .month, .day], from: start, to: today)
+
+        var parts: [String] = []
+        if let years = components.year, years > 0 {
+            parts.append(String(localized: "\(years) years", comment: "Duration: year count for relationship length"))
+        }
+        if let months = components.month, months > 0 {
+            parts.append(String(localized: "\(months) months", comment: "Duration: month count for relationship length"))
+        }
+        if let days = components.day, days > 0 {
+            parts.append(String(localized: "\(days) days", comment: "Duration: day count for relationship length"))
+        }
+
+        guard !parts.isEmpty else {
+            return String(localized: "Together since today.", comment: "Duration: relationship started today")
+        }
+
+        let joined = ListFormatter.localizedString(byJoining: parts)
+        return String(localized: "Together for \(joined).", comment: "Duration: relationship length summary")
     }
 
     private var compactDuration: String {

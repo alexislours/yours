@@ -335,6 +335,12 @@
     "%lld dreams" : {
       "comment" : "About: dreams count label",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld dreams"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -948,6 +954,12 @@
     "A dream or aspiration..." : {
       "comment" : "Dreams: editor placeholder",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A dream or aspiration..."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1180,6 +1192,12 @@
     "Add a dream" : {
       "comment" : "Dreams: empty state button",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add a dream"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1459,6 +1477,12 @@
     "Add dream" : {
       "comment" : "Dreams: FAB accessibility label",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add dream"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2883,6 +2907,12 @@
     "Delete dream?" : {
       "comment" : "Dreams: delete confirmation",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete dream?"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3234,6 +3264,12 @@
     "Dreams" : {
       "comment" : "About: dreams card title\nDreams: section title\nSearch: dreams section header",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dreams"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5034,6 +5070,12 @@
     "No dreams found" : {
       "comment" : "Dreams: no search results",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No dreams found"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5045,6 +5087,12 @@
     "No dreams yet" : {
       "comment" : "Dreams: empty state title",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No dreams yet"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6467,6 +6515,12 @@
     "Search dreams" : {
       "comment" : "Dreams: search placeholder",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search dreams"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7277,6 +7331,12 @@
     "The big goals, quiet hopes, and someday plans. Write them down so you can cheer them on." : {
       "comment" : "Dreams: empty state description",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The big goals, quiet hopes, and someday plans. Write them down so you can cheer them on."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",

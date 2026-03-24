@@ -15,7 +15,6 @@ struct WidgetPayloadTests {
         let person = WidgetPersonData(
             name: "Alice",
             relationshipStart: TestFixtures.sampleRelationshipStart,
-            durationDescription: "9 months",
             formattedStartDate: "Jun 1, 2025",
             photoData: Data([0xFF, 0xD8]),
             hasCompletedOnboarding: true
@@ -24,16 +23,12 @@ struct WidgetPayloadTests {
             WidgetDateData(
                 title: "Birthday",
                 icon: "gift",
-                daysUntilNext: 10,
-                countdownText: "In 10 days",
-                isToday: false
+                nextOccurrence: TestFixtures.futureDate(daysFromNow: 10)
             ),
             WidgetDateData(
                 title: "Anniversary",
                 icon: "heart",
-                daysUntilNext: 0,
-                countdownText: "Today",
-                isToday: true
+                nextOccurrence: Calendar.current.startOfDay(for: .now)
             ),
         ]
         let original = WidgetPayload(
@@ -47,7 +42,6 @@ struct WidgetPayloadTests {
 
         #expect(decoded.person?.name == "Alice")
         #expect(decoded.person?.relationshipStart == TestFixtures.sampleRelationshipStart)
-        #expect(decoded.person?.durationDescription == "9 months")
         #expect(decoded.person?.formattedStartDate == "Jun 1, 2025")
         #expect(decoded.person?.photoData == Data([0xFF, 0xD8]))
         #expect(decoded.person?.hasCompletedOnboarding == true)
@@ -82,7 +76,6 @@ struct WidgetPayloadTests {
             person: WidgetPersonData(
                 name: "Bob",
                 relationshipStart: TestFixtures.referenceDate,
-                durationDescription: "1 year",
                 formattedStartDate: "Jan 15, 2026",
                 photoData: nil,
                 hasCompletedOnboarding: true

@@ -40,7 +40,6 @@ enum WidgetDataService {
         WidgetPersonData(
             name: person.name,
             relationshipStart: person.relationshipStart,
-            durationDescription: person.durationDescription,
             formattedStartDate: person.relationshipStart.formatted(
                 .dateTime.month(.wide).day().year()
             ),
@@ -54,9 +53,7 @@ enum WidgetDataService {
             WidgetDateData(
                 title: date.title,
                 icon: date.categoryIcon,
-                daysUntilNext: date.daysUntilNext,
-                countdownText: date.countdownText,
-                isToday: date.daysUntilNext == 0
+                nextOccurrence: date.nextOccurrence
             )
         }
     }

@@ -19,9 +19,9 @@ struct DateCountdownProvider: TimelineProvider {
                 WidgetDateData(
                     title: String(localized: "Birthday", comment: "Widget placeholder: example event"),
                     icon: "birthday.cake.fill",
-                    daysUntilNext: 12,
-                    countdownText: String(localized: "in 12 days", comment: "Widget placeholder: countdown"),
-                    isToday: false
+                    nextOccurrence: Calendar.current.date(
+                        byAdding: .day, value: 12, to: .now
+                    ) ?? .now
                 ),
             ],
             hasCompletedOnboarding: true

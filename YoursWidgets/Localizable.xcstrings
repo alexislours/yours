@@ -1,6 +1,15 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "%lld days" : {
+      "comment" : "Duration: day count for relationship length"
+    },
+    "%lld months" : {
+      "comment" : "Duration: month count for relationship length"
+    },
+    "%lld years" : {
+      "comment" : "Duration: year count for relationship length"
+    },
     "Add an important date" : {
       "comment" : "Widget: empty state prompt",
       "localizations" : {
@@ -86,8 +95,12 @@
         }
       }
     },
+    "in %lld days" : {
+      "comment" : "Countdown: days until event"
+    },
     "in 12 days" : {
       "comment" : "Widget placeholder: countdown",
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -189,7 +202,7 @@
       }
     },
     "Today" : {
-      "comment" : "Widget: event is today",
+      "comment" : "Countdown: event is today\nWidget: event is today",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -307,8 +320,12 @@
         }
       }
     },
+    "Together for %@." : {
+      "comment" : "Duration: relationship length summary"
+    },
     "Together for 2 years and 3 months." : {
       "comment" : "Widget placeholder: relationship duration",
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -323,6 +340,12 @@
           }
         }
       }
+    },
+    "Together since today." : {
+      "comment" : "Duration: relationship started today"
+    },
+    "Tomorrow" : {
+      "comment" : "Countdown: event is tomorrow"
     },
     "Upcoming" : {
       "comment" : "Widget: upcoming dates header",

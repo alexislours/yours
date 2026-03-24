@@ -37,7 +37,6 @@ struct RelationshipDurationWidgetTests {
 
         #expect(payload.person?.name == "Alice")
         #expect(payload.person?.relationshipStart == TestFixtures.sampleRelationshipStart)
-        #expect(payload.person?.durationDescription.isEmpty == false)
     }
 
     // MARK: - Medium: years/months breakdown
@@ -103,7 +102,6 @@ struct RelationshipDurationWidgetTests {
         #expect(payload.upcomingDates.count == 2)
         #expect(payload.upcomingDates[0].title == "Birthday")
         #expect(payload.upcomingDates[1].title == "Anniversary")
-        #expect(payload.person?.durationDescription.isEmpty == false)
         #expect(payload.person?.formattedStartDate.isEmpty == false)
     }
 
